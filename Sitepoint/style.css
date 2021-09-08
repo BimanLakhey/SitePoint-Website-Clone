@@ -1,0 +1,728 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navBar
+{
+    padding: 12px;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #232023;
+}
+
+.logoDiv
+{
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+}
+
+.logoDiv span
+{
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.navLink
+{
+    text-decoration: none;
+    color: #CCCCCC;
+    font-size: 20px;
+    margin-right: 40px;
+    text-decoration-color: #AAAAA6;
+}
+
+.navLink:hover
+{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #AAAAA6;
+    transition: all 0.5s;
+}
+
+.btn
+{
+    background-color: #FA3292;
+    color: white;
+    font-size: 18px;
+    padding: 13px;
+    border-color: #FA3292;
+    font-weight: bold;
+}
+.navButton
+{
+    margin-right: 125px;
+    transition: 0.5s;
+}
+
+.navButton:hover
+{
+    background-color: #FF0080;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.createAccountDiv
+{
+    padding: 50px 150px 50px 175px;
+    border: 2px solid #232023;
+    background-image: linear-gradient(270deg, #785ED5, #6146D1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.createAccount
+{
+    color: white;
+    text-shadow: 1px 1px 8px #232023;
+}
+
+.createAccountHeading
+{
+    line-height: 1.3;
+    font-size: 47px;
+    font-weight: 200;
+}
+
+.createAccountDesc
+{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-top: 30px;
+}
+
+.createAccButton
+{
+    margin: 30px 0px 0px 75px;
+    width: 280px;
+    background-color: #D2005F;
+}
+
+.accBtn
+{
+    transition: 0.5s;
+}
+
+.partnersDiv
+{
+    padding: 60px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A2A2A;
+}
+
+.categoriesHeading
+{
+    color: #CCCCCC;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.categoriesDiv
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.category
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryImage
+{
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+}
+
+.categorySubHeading
+{
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #AAAAA6;
+}
+
+.categorySubHeadingOnHover
+{
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+
+.libraryDiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 125px;
+}
+
+.libraryHeading
+{
+    font-size: 40px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+
+.libraryDesc
+{
+    font-size: 23px;
+    color: #898787;
+    margin-top: 40px;
+}
+
+.searchLibrary
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchLibraryInput
+{
+    outline: none;
+    padding-left: 70px;
+    border-radius: 150px 0px 0px 150px;
+    height: 60px;
+    width: 80%;
+    font-size: 30px;
+    border: 1px solid #898787;
+    box-shadow: inset 1px 2px 10px 2px #D3D3D3;
+    margin-top: 40px;
+}
+
+.searchButton
+{
+    height: 50px;
+    width: 70px;
+    border: 1px solid#898787;
+    margin-top: 40px;
+    background-color: #F2F5F8;
+    border-radius: 0 150px 150px 0;
+    cursor: pointer;
+}
+
+.searchButton > svg
+{
+    width: 20px;
+    height: 20px;
+}
+
+.library
+{
+    width: 100%;
+    margin: 100px 125px 0px 125px;
+}
+
+.librarySection
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.libraryController
+{
+    cursor: pointer;
+    color: #BBBBBB;
+    height: 35px;
+    width: 35px;
+}
+
+.books
+{
+    overflow: hidden;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.book .bookImage
+{
+    height: 250px;
+    width: 225px;
+    margin: 0px 50px 100px 0px;
+    box-shadow: 3px 3px 5px #BBBBBB;
+}
+
+.libraryButton
+{
+    cursor: pointer;
+    margin-left: 425px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550;
+    background-color: #0C8577;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.chooseSitepointDiv
+{
+    margin: 0px 125px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chooseSitepointOptions
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.chooseSitepointOption
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chooseSitepointImg
+{
+    height: 250px;
+    width: 300px;
+}
+
+.chooseSitepointImgTitle
+{
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.chooseSitepointSubHeading
+{
+    width: 410px;
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 25px;
+    color: #AAAAA6;
+}
+
+.miniDesktop
+{
+    width: 100%;
+}
+
+.sitepointPremiumSubDiv
+{
+    border: 2px solid #D2005F;
+    margin: 50px 125px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+.sitepointPremiumHeading
+{
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.sitepointPremiumItem
+{
+    margin-left: 40px;
+    font-weight: normal;
+    list-style: none;
+    font-size: 20px;
+    color: #898787;
+    line-height: 2;
+}
+
+.sitepointPremiumItem::before
+{
+    content: "\2022";
+    color: black;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.sitepointPremiumRDiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.prices
+{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.priceDiv
+{
+    margin-right: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#price
+{
+    margin-right: 5px;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.priceRangeDiv
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #898787;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#annualBill
+{
+    width: 150px;
+    height: 25px;
+    font-size: 13px; 
+    margin-top: 15px;
+    color: black;
+}
+
+.createAccountBtn
+{
+    font-weight: bold;
+    color: white;
+    border-color: #D2005F;
+    background-color: #D2005F;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.createAccBtnHover
+{
+    background-color: #FA3292;
+    border-color: #FA3292;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.techTalkWrapper
+{
+    width: 100%;
+    background-image: linear-gradient(270deg, #453483, #060620);
+}
+
+.techTalkDiv
+{
+    margin: 0px 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.techTalk
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.techTalkHeading
+{
+    line-height: 1.5;
+    font-size: 35px;
+    color: white;
+    margin-top: 100px;
+
+}
+
+.techTalkDesc
+{
+    margin-top: 50px;
+    color: #BBBBBB;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.techTalkBtn
+{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: #0C8577;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.techTalkVideos
+{
+    opacity: 0.8;
+    padding: 20px;
+    background-color: black;
+}
+
+.techTalkVideo a
+{
+    text-decoration: none;
+}
+
+.techTalkVideoTitle
+{
+    color: #898787;
+    margin-top: 10px;
+}
+
+.techTalkSpeaker
+{
+    color: #AAAAA6;
+    margin-bottom: 20px;
+}
+
+.reviewsDiv
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 125px;
+    align-items: center;
+}
+
+.reviews, .memberDiv
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.reviewDiv, .member
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewDiv
+{
+    border: 2px solid #2AA2EF;
+    padding: 20px;
+    line-height: 1.5;
+    margin-right: 40px;
+}
+
+.memberDiv img
+{
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+}
+
+.memberName
+{
+    font-weight: bold;
+}
+
+.memberTitle
+{
+    font-size: 15px;
+    color: #BBBBBB;
+}
+
+.review
+{
+    color: #898787;
+    margin-top: 25px;
+    font-size: 13px;
+}
+
+.articlesDiv
+{
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 125px;
+    align-items: center;
+    justify-content: center;
+}
+
+.articleDiv
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.article
+{
+    padding-bottom: 25px;
+    box-shadow: 1px 1px 10px gray;
+    text-decoration: none;
+    width: 300px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.article:hover
+{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.imageHolder
+{
+    height: 175px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imageHolder img
+{
+    height: 175px;
+    width: 300px;
+}
+
+.articleTitleDiv
+{
+    margin: 25px 25px 0px 25px;
+    height: 100px;
+}
+
+.articleTitle
+{
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+}
+
+.articleListDiv
+{
+    padding-left: 40px;
+}
+
+.articleContent
+{
+    color: #A2A2A2;
+    font-weight: bold;
+}
+
+.articleWriter
+{
+    color: #A2A2A2;
+}
+
+.brightBtn
+{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.brightBtnOnHover
+{
+    transition: 0.5s;
+    filter: brightness(1.2);
+}
+
+.fontColorBtn
+{
+    transition: 0.5s;
+    color: #EEEEEE;
+}
+
+.fontColorBtnOnHover
+{
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #232023;
+    padding-bottom: 50px;
+}
+
+.footerContentHeading
+{
+    color: #EFEFEF;
+    margin-top: 50px;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+.footerContentItem
+{
+    margin-left: 15px;
+    list-style: disc;
+    color: #A2A2A2;
+}
+
+.footerContentItem:hover
+{
+    transition: 0.5s;
+    color: #00FFFF;
+}
+
+.footerContentItem a
+{
+    line-height: 2.5;
+    font-size: 17px;
+    text-decoration: none;
+    color: #A2A2A2;
+}
+
+.socialMedias
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialMedias svg
+{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.copyright, .captcha
+{
+    margin-top: 20px;
+    color: #A2A2A2;
+}
+
+
+
+
+
+

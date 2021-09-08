@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navBar">
+            <div class="logoDiv">
+                <img src="./images/logo.png" alt="sitepoint logo" style="height:40px; width:40px;">
+                <span>sitepoint</span>
+            </div>
+            <div class="refDiv">
+                <a href="" class="navLink">Blog</a>
+                <a href="" class="navLink">Discord</a>
+                <a href="" class="navLink">Forum</a>
+                <a href="" class="navLink">Library</a>
+                <a href="" class="navLink">Login</a>
+                <button type="button" class=" btn navButton">Join Premium</button>
+            </div>
+        </nav>    
+    </header>
+    
+    <div class="mainContent">
+
+        <div class="createAccountDiv">
+            <div class="createAccount">
+                <h1 class="createAccountHeading">A lifetime of<br>knowledge at your<br>fingertips.</h1>
+                <p class="createAccountDesc">Choose from hundreds of books,<br>courses, and tech talks on web<br>development. Learn HTML, CSS and<br>JavaScript to React, Docker, and<br>Python.</p>
+                <button type="button" class="btn createAccButton accBtn">Create Account</button>
+            </div>
+    
+            <img src="https://www.sitepoint.com/static/code-world-8a09009f98ec928cf3e4c924c1fc9421.svg" alt="code world" loading="lazy" style="height: 500px; width: 700px;">
+        </div>
+    
+        <div class="partnersDiv">
+            <h3 class="categoriesHeading">Trusted by over 100,000 developers from...</h3>
+            <div class="categoriesDiv">
+                <div>
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjQgNDkiPgogIDxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTExMi42MyAyMS4wOGMtLjE4LTIuMzctMi4wNC0zLjgxLTQuNjctMy44MS0yLjQ1IDAtNC43IDEuNTQtNC43IDMuOTQgMCAxLjQxLjggMi42MSAzLjg3IDMuNTUgMS44Mi41NiAyLjIzLjkxIDIuMjMgMS41OSAwIC41Ni0uNjMuOTMtMS4yNy45My0uNzIgMC0xLjI3LS4zNC0xLjM4LTEuMWgtMy42MWMuMjYgMi40NSAyLjIxIDQgNC45NSA0IDIuNzYgMCA0Ljk1LTEuNTkgNC45NS00LjEyIDAtMS43Ni0uOTQtMi45MS0zLjgzLTMuNjgtMS42OS0uNDMtMi4yOC0uNzYtMi4yOC0xLjQxIDAtLjQ2LjQ0LS44IDEuMDUtLjguNiAwIDEuMS4yMSAxLjEyLjloMy41N3ptLTIxLjU0IDguN2gzLjY0di02Ljc2YzAtMS41OS43LTIuMzggMi4wNy0yLjM4LjY2IDAgMS4xNC4yIDEuNDQuNi4zLjQuNDUgMS4wNS40NSAxLjkydjYuNjNoMy42NHYtNy42YzAtLjQ4LS4wMi0uOS0uMDYtMS4yN2E1LjEgNS4xIDAgMDAtLjItLjk3Yy0uMDgtLjI5LS4yLS41NC0uMzYtLjc4YTMuODMgMy44MyAwIDAwLS42LS42OWMtLjM4LS4zOS0uODYtLjctMS40My0uOTFhNS4wMiA1LjAyIDAgMDAtMy43NS4wN2MtLjUuMjctLjk3LjctMS40IDEuM3YtMS4yOUg5MS4xVjI5Ljh6bS03LjgtMi4zN2MtMS40Ny0uMjMtMS40NC0uODItMS4wOC0xLjEgMy4zNSAxLjI3IDcuNDUtLjM1IDcuNDctNC4yMiAwLTEuNDEtLjUxLTIuMzItLjktMi43My4zLS42LjY2LS44OCAxLjQxLTEuMDdsLTEuNTMtMi42M2MtMS4zOC4xMS0yLjMuOTYtMi43MSAxLjgzYTYuMjUgNi4yNSAwIDAwLTMuODMuMWMtLjY0LjIzLTEuMjMuNTYtMS43NCAxLjAxYTQuNTIgNC41MiAwIDAwLTEuNTYgMy41YzAgLjkxLjMgMi4wMS44NCAyLjc2YTMuMjggMy4yOCAwIDAwLjEzIDQuOTNjLS4xNi4xMi0uMy4yNS0uNDUuNC0xLjM2IDEuNDgtLjcyIDMuNTUuODYgNC42MyAxLjk4IDEuNDIgNS41MSAxLjUgNy42OC41NSAzLjgyLTEuNTUgMy45NS03LjItLjQ4LTcuOTQtMS4yMy0uMi0yLjYzLjItNC4xLS4wMnptMy41MyA0Ljg3Yy0uNDEuNTctMS4yLjc3LTEuODYuOC0uNzguMDMtMS44My0uMTQtMi4zNi0uNzgtLjUyLS42LS40LTEuNDYuMy0xLjg4LjE5LS4xMi40LS4xOS42My0uMjJoMS44Yy44IDAgMS44LjIyIDEuNzkgMS4yIDAgLjMtLjExLjY0LS4zLjg4em0tMi41My0xMi4zYTIgMiAwIDExMCA0IDIgMiAwIDAxMC00em0tNi45NSA5LjhINzMuN1YxNy42NmgzLjY0VjI5Ljh6bS0xLjgyLTEzLjRhMi4xOCAyLjE4IDAgMTAwLTQuMzYgMi4xOCAyLjE4IDAgMDAwIDQuMzZ6bS0zLjE3IDQuN2MtLjE3LTIuMzctMi4wMy0zLjgxLTQuNjYtMy44MS0yLjQ2IDAtNC43MSAxLjU0LTQuNzEgMy45NCAwIDEuNDEuOCAyLjYxIDMuODcgMy41NSAxLjgyLjU2IDIuMjQuOTEgMi4yNCAxLjU5IDAgLjU2LS42NC45My0xLjI3LjkzLS43MiAwLTEuMjctLjM0LTEuMzgtMS4xaC0zLjYyYy4yNyAyLjQ1IDIuMjIgNCA0Ljk1IDQgMi43NiAwIDQuOTUtMS41OSA0Ljk1LTQuMTIgMC0xLjc2LS45NC0yLjkxLTMuODMtMy42OC0xLjY5LS40My0yLjI4LS43Ni0yLjI4LTEuNDEgMC0uNDYuNDQtLjggMS4wNS0uOC42IDAgMS4xLjIxIDEuMTIuOWgzLjU3em0tMTAuNS4xN2E2LjM2IDYuMzYgMCAwMC0zLjQtMy41IDYuMzMgNi4zMyAwIDAwLTguMzQgMy40NWMtLjMzLjc5LS41IDEuNjQtLjUgMi41NGE2LjQ0IDYuNDQgMCAwMDMuODkgNS45NiA2LjMgNi4zIDAgMDA1Ljk5LS42MmMxLS43MSAxLjc3LTEuNjggMi4zMy0yLjloLTMuNzljLS4zOC4zNi0uNzQuNjEtMS4wNi43NC0uMzMuMTMtLjcxLjItMS4xNy4yLS43MyAwLTEuMzMtLjIxLTEuODItLjYyYTIuNDQgMi40NCAwIDAxLS44NS0xLjY0aDkuMWE2LjggNi44IDAgMDAtLjM5LTMuNjF6bS04LjYyIDEuMThjLjE1LS42OC40Ni0xLjIuOTMtMS41NmEyLjg2IDIuODYgMCAwMTEuNzktLjU1Yy43MSAwIDEuMzEuMiAxLjguNTkuNS4zOC44MS45Ljk0IDEuNTJoLTUuNDZ6bS0yOS44OC02LjY2bC4yOC0uNTNhNi40NyA2LjQ3IDAgMDExMS4yIDYuNDdsLTQuNjYgOC4wOGgtNC4yMmwyLjgyLTQuODdhNi40MyA2LjQzIDAgMDEtNS40Mi0zLjc1bC0uMjcuNTQtNC42NyA4LjA4aC00LjIybDIuODItNC44N2E2LjQ3IDYuNDcgMCAxMTYuMzUtOS4xNXptMjEuOC0zLjR2Ni4yN2E1LjE0IDUuMTQgMCAwMC0xLjYtMS4wOCA1LjkgNS45IDAgMDAtNi4zIDEuNDggNi4zNiA2LjM2IDAgMDAtMS4yNyAyLjA2Yy0uMy44LS40NiAxLjY1LS40NiAyLjU4IDAgLjk2LjE1IDEuODMuNDUgMi42M2E1LjgzIDUuODMgMCAwMDUuNjYgMy45Yy44NC0uMDEgMS41NS0uMTUgMi4xMi0uNDEuNTgtLjI3IDEuMTEtLjcgMS42LTEuM3YxLjI4aDMuNDVWMTIuMzdoLTMuNjV6bS0uNjggMTMuNTVjLS41OC41OC0xLjMzLjg3LTIuMjQuODctLjQ0IDAtLjg0LS4wNy0xLjIzLS4yM2EyLjc4IDIuNzggMCAwMS0xLjYtMS42MyAzLjMgMy4zIDAgMDEtLjIzLTEuMjVjMC0uNDQuMDctLjg1LjIzLTEuMjNhMi44IDIuOCAwIDAxMS42My0xLjYgMy4zIDMuMyAwIDAxMy40NC42NCAyLjk3IDIuOTcgMCAwMS44OCAyLjE2YzAgLjkzLS4zIDEuNjgtLjg4IDIuMjd6bS0xNy44LTguOTNhMi45NiAyLjk2IDAgMTE1LjEyIDIuOTZBMi45NiAyLjk2IDAgMDEyNi42NyAxN3ptLTExLjc2IDBhMi45NiAyLjk2IDAgMTE1LjEyIDIuOTZBMi45NiAyLjk2IDAgMDExNC45MSAxN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPgo8L3N2Zz4K" alt="99designs" loading="lazy">
+                </div>
+                
+                <div>
+                   <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI0IiBoZWlnaHQ9IjQ5IiB2aWV3Qm94PSIwIDAgMTI0IDQ5IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTcuNzA1NyAyNi4zMDA3TDE2Ljc4MTYgMjguOTE5MUgxNi43MDQ2QzE2LjU1MDUgMjguMzI4NyAxNi4yNjgyIDI3LjQzMDIgMTUuODA2MSAyNi4zNTIxTDEwLjg1MTcgMTMuOTAxOUg2VjMzLjc0NTFIOS4yMDg4VjIxLjUwMDRDOS4yMDg4IDIwLjczMDIgOS4yMDg4IDE5Ljg1NzQgOS4xODMxMyAxOC43NzkzQzkuMTU3NDYgMTguMjQwMiA5LjEwNjEyIDE3LjgyOTUgOS4wODA0NSAxNy41MjE0SDkuMTU3NDZDOS4zMTE0OCAxOC4yOTE2IDkuNDkxMTcgMTguODU2MyA5LjYxOTUzIDE5LjIxNTdMMTUuNTc1MSAzMy42OTM4SDE3LjgzNDFMMjMuNzM4MyAxOS4wODczQzIzLjg2NjYgMTguNzUzNiAyMy45OTUgMTguMDg2MiAyNC4xMjMzIDE3LjUyMTRIMjQuMjAwM0MyNC4xMjMzIDE4Ljk4NDcgMjQuMDcyIDIwLjI5MzggMjQuMDQ2MyAyMS4wODk2VjMzLjY2ODFIMjcuNDYwNVYxMy44NTA2SDIyLjc4ODRMMTcuNzA1NyAyNi4zMDA3VjI2LjMwMDdaTTMwLjY5NDkgMTkuNDQ2N0gzNC4wMzIxVjMzLjY2ODFIMzAuNjk0OVYxOS40NDY3Wk0zMi4zODkyIDEzLjQzOThDMzEuODI0NCAxMy40Mzk4IDMxLjM2MjQgMTMuNjQ1MiAzMC45NzczIDE0LjAwNDZDMzAuNTkyMiAxNC4zNjQgMzAuMzg2OSAxNC44MjYgMzAuMzg2OSAxNS4zOTA4QzMwLjM4NjkgMTUuOTI5OSAzMC41OTIyIDE2LjM5MTkgMzAuOTc3MyAxNi43NTEzQzMxLjM2MjQgMTcuMTEwNyAzMS44MjQ0IDE3LjI5MDQgMzIuMzg5MiAxNy4yOTA0QzMyLjk1MzkgMTcuMjkwNCAzMy40NDE3IDE3LjA4NSAzMy44MDExIDE2Ljc1MTNDMzQuMTg2MSAxNi4zOTE5IDM0LjM5MTUgMTUuOTI5OSAzNC4zOTE1IDE1LjM5MDhDMzQuMzkxNSAxNC44NTE3IDM0LjE4NjEgMTQuMzg5NyAzMy44MDExIDE0LjAwNDZDMzMuNDY3MyAxMy42NDUyIDMyLjk3OTYgMTMuNDM5OCAzMi4zODkyIDEzLjQzOThWMTMuNDM5OFpNNDUuODY2MSAxOS4zMTg0QzQ1LjI1MDEgMTkuMTkgNDQuNjA4MyAxOS4xMTMgNDMuOTkyMiAxOS4xMTNDNDIuNDc3NyAxOS4xMTMgNDEuMDkxNCAxOS40NDY3IDM5LjkzNjMgMjAuMTE0MkMzOC43ODExIDIwLjc4MTYgMzcuODU3IDIxLjcwNTcgMzcuMjY2NiAyMi44NjA5QzM2LjY1MDUgMjQuMDQxNyAzNi4zNDI0IDI1LjQwMjMgMzYuMzQyNCAyNi45NjgyQzM2LjM0MjQgMjguMzI4NyAzNi42NTA1IDI5LjUzNTIgMzcuMjQwOSAzMC42MzlDMzcuODMxMyAzMS43MTcyIDM4LjY1MjggMzIuNTkgMzkuNzU2NiAzMy4xODA0QzQwLjgwOTEgMzMuNzcwOCA0Mi4wNDEzIDM0LjA3ODkgNDMuNDI3NSAzNC4wNzg5QzQ1LjAxOSAzNC4wNzg5IDQ2LjM3OTYgMzMuNzQ1MSA0Ny40NTc3IDMzLjEyOTFMNDcuNDgzNCAzMy4xMDM0VjMwLjAyMjlMNDcuMzU1IDMwLjEyNTZDNDYuODY3MyAzMC40ODUgNDYuMzAyNSAzMC43OTMgNDUuNzM3OCAzMC45NzI3QzQ1LjE0NzQgMzEuMTc4MSA0NC42MDgzIDMxLjI4MDggNDQuMTQ2MiAzMS4yODA4QzQyLjgxMTQgMzEuMjgwOCA0MS43NTg5IDMwLjg5NTcgNDEuMDE0NCAzMC4wNDg2QzQwLjI0NDMgMjkuMjI3MSAzOS44NTkzIDI4LjA5NzcgMzkuODU5MyAyNi42ODU4QzM5Ljg1OTMgMjUuMjIyNiA0MC4yNDQzIDI0LjA2NzQgNDEuMDQwMSAyMy4yMjAzQzQxLjgzNTkgMjIuMzczMSA0Mi44ODg0IDIxLjkzNjggNDQuMTcxOSAyMS45MzY4QzQ1LjI1MDEgMjEuOTM2OCA0Ni4zNTM5IDIyLjI5NjEgNDcuMzU1IDIzLjAxNDlMNDcuNDgzNCAyMy4xMTc2VjE5Ljg1NzRMNDcuNDU3NyAxOS44MzE4QzQ3LjAyMTMgMTkuNjUyMSA0Ni41MzM2IDE5LjQ0NjcgNDUuODY2MSAxOS4zMTg0VjE5LjMxODRaTTU2Ljg3ODcgMTkuMjE1N0M1Ni4wNTczIDE5LjIxNTcgNTUuMjg3MiAxOS40NzI0IDU0LjYxOTggMjAuMDExNUM1NC4wNTUgMjAuNDczNSA1My42Njk5IDIxLjE0MSA1My4zMzYyIDIxLjkzNjhINTMuMzEwNlYxOS40NDY3SDQ5Ljk3MzRWMzMuNjY4MUg1My4zMTA2VjI2LjQwMzRDNTMuMzEwNiAyNS4xNzEyIDUzLjU2NzMgMjQuMTQ0NCA1NC4xMzIgMjMuNEM1NC42OTY4IDIyLjYyOTkgNTUuNDE1NSAyMi4yNDQ4IDU2LjI4ODMgMjIuMjQ0OEM1Ni41OTY0IDIyLjI0NDggNTYuOTA0NCAyMi4zMjE4IDU3LjI4OTUgMjIuMzczMUM1Ny42NDg5IDIyLjQ3NTggNTcuOTA1NiAyMi41Nzg1IDU4LjA4NTMgMjIuNzA2OUw1OC4yMTM2IDIyLjgwOTVWMTkuNDcyNEw1OC4xMzY2IDE5LjQ0NjdDNTcuOTA1NiAxOS4yOTI3IDU3LjQ0MzUgMTkuMjE1NyA1Ni44Nzg3IDE5LjIxNTdWMTkuMjE1N1pNNjUuOTY2MSAxOS4xMzg3QzYzLjYzMDEgMTkuMTM4NyA2MS43NTYxIDE5LjgzMTggNjAuNDQ2OSAyMS4xOTIzQzU5LjExMjEgMjIuNTUyOCA1OC40NzAzIDI0LjQyNjggNTguNDcwMyAyNi43ODg1QzU4LjQ3MDMgMjguOTk2MSA1OS4xMzc3IDMwLjc5MyA2MC40MjEzIDMyLjEwMjJDNjEuNzA0OCAzMy4zODU4IDYzLjQ1MDQgMzQuMDUzMiA2NS42MzI0IDM0LjA1MzJDNjcuOTE3IDM0LjA1MzIgNjkuNzM5NiAzMy4zNjAxIDcxLjA0ODggMzEuOTczOUM3Mi4zODM3IDMwLjU4NzcgNzMuMDI1NCAyOC43Mzk0IDczLjAyNTQgMjYuNDU0N0M3My4wMjU0IDI0LjE5NTcgNzIuNDA5MyAyMi4zOTg4IDcxLjE1MTUgMjEuMDg5NkM2OS45NDUgMTkuNzgwNCA2OC4xNzM3IDE5LjEzODcgNjUuOTY2MSAxOS4xMzg3VjE5LjEzODdaTTY4LjYzNTggMzAuMDc0M0M2OC4wMTk3IDMwLjg3MDEgNjcuMDQ0MiAzMS4yNTUxIDY1LjgzNzcgMzEuMjU1MUM2NC42MzEyIDMxLjI1NTEgNjMuNjU1NyAzMC44NzAxIDYyLjk2MjYgMzAuMDIyOUM2Mi4yNjk1IDI5LjIyNzEgNjEuOTM1OCAyOC4wNzIgNjEuOTM1OCAyNi42MDg4QzYxLjkzNTggMjUuMDk0MiA2Mi4yOTUyIDIzLjkzOSA2Mi45NjI2IDIzLjExNzZDNjMuNjU1NyAyMi4yOTYxIDY0LjYwNTUgMjEuODg1NCA2NS44MTIxIDIxLjg4NTRDNjYuOTkyOSAyMS44ODU0IDY3LjkxNyAyMi4yNzA1IDY4LjU4NDUgMjMuMDY2MkM2OS4yNTE5IDIzLjg2MiA2OS42MTEzIDI1LjAxNzIgNjkuNjExMyAyNi41MzE4QzY5LjU1OTkgMjguMDcyIDY5LjI3NzYgMjkuMjc4NSA2OC42MzU4IDMwLjA3NDNWMzAuMDc0M1pNODAuNDY5OSAyNS4zNTA5Qzc5LjQxNzQgMjQuOTE0NSA3OC43NDk5IDI0LjU4MDggNzguNDQxOSAyNC4yOTg0Qzc4LjE4NTIgMjQuMDQxNyA3OC4wNTY4IDIzLjY4MjMgNzguMDU2OCAyMy4yMjAzQzc4LjA1NjggMjIuODM1MiA3OC4yMTA5IDIyLjQ1MDIgNzguNTk1OSAyMi4xOTM1Qzc4Ljk4MSAyMS45MzY4IDc5LjQxNzQgMjEuODA4NCA4MC4wNTkxIDIxLjgwODRDODAuNjIzOSAyMS44MDg0IDgxLjIxNDMgMjEuOTExMSA4MS43NzkgMjIuMDY1MUM4Mi4zNDM4IDIyLjIxOTEgODIuODU3MiAyMi40NTAyIDgzLjI2NzkgMjIuNzU4Mkw4My4zOTYzIDIyLjg2MDlWMTkuNzI5MUw4My4zMTkzIDE5LjcwMzRDODIuOTM0MiAxOS41NDk0IDgyLjQyMDggMTkuMzk1NCA4MS44MDQ3IDE5LjI2N0M4MS4xODg2IDE5LjE2NDMgODAuNjIzOSAxOS4xMTMgODAuMTYxOCAxOS4xMTNDNzguNTcwMiAxOS4xMTMgNzcuMjYxMSAxOS40OTgxIDc2LjIzNDIgMjAuMzQ1MkM3NS4yMDc0IDIxLjE0MSA3NC43MTk3IDIyLjIxOTEgNzQuNzE5NyAyMy40NzdDNzQuNzE5NyAyNC4xNDQ0IDc0LjgyMjQgMjQuNzM0OCA3NS4wNTM0IDI1LjIyMjZDNzUuMjg0NCAyNS43MTAzIDc1LjYxODEgMjYuMTcyNCA3Ni4wODAyIDI2LjU1NzRDNzYuNTQyMyAyNi45MTY4IDc3LjIwOTcgMjcuMzI3NSA3OC4xMzM4IDI3LjcxMjZDNzguOTA0IDI4LjA0NjMgNzkuNDk0NCAyOC4zMDMgNzkuODUzOCAyOC41MDg0QzgwLjIxMzEgMjguNzEzNyA4MC40NDQyIDI4Ljk0NDggODAuNjIzOSAyOS4xMjQ1QzgwLjc1MjIgMjkuMzI5OCA4MC44MjkyIDI5LjU4NjUgODAuODI5MiAyOS45MjAyQzgwLjgyOTIgMzAuODcwMSA4MC4xMTA1IDMxLjMzMjEgNzguNjQ3MyAzMS4zMzIxQzc4LjA4MjUgMzEuMzMyMSA3Ny40OTIxIDMxLjIyOTQgNzYuNzk5IDMwLjk5ODRDNzYuMTA1OSAzMC43Njc0IDc1LjQ2NDEgMzAuNDMzNyA3NC45MjUgMzAuMDQ4Nkw3NC43OTY3IDI5Ljk0NTlWMzMuMjA2MUw3NC44NzM3IDMzLjIzMTdDNzUuMzYxNCAzMy40NjI4IDc1Ljk1MTkgMzMuNjE2OCA3Ni42NzA2IDMzLjc5NjVDNzcuMzg5NCAzMy45MjQ4IDc4LjAzMTIgMzQuMDI3NSA3OC41OTU5IDM0LjAyNzVDODAuMzE1OCAzNC4wMjc1IDgxLjcyNzcgMzMuNjQyNSA4Mi43Mjg5IDMyLjc5NTNDODMuNzU1NyAzMS45NzM5IDg0LjI5NDcgMzAuOTIxNCA4NC4yOTQ3IDI5LjU2MDlDODQuMjk0NyAyOC42MTExIDg0LjAzOCAyNy43NjM5IDgzLjQ3MzMgMjcuMTIyMkM4Mi43Mjg4IDI2LjUwNjEgODEuODA0NyAyNS44NjQzIDgwLjQ2OTkgMjUuMzUwOVYyNS4zNTA5Wk05My4wOTk3IDE5LjEzODdDOTAuNzYzNyAxOS4xMzg3IDg4Ljg4OTcgMTkuODMxOCA4Ny41ODA2IDIxLjE5MjNDODYuMjcxNCAyMi41NTI4IDg1LjYwMzkgMjQuNDI2OCA4NS42MDM5IDI2Ljc4ODVDODUuNjAzOSAyOC45OTYxIDg2LjI3MTQgMzAuNzkzIDg3LjU1NDkgMzIuMTAyMkM4OC44Mzg0IDMzLjM4NTggOTAuNTg0IDM0LjA1MzIgOTIuNzY2IDM0LjA1MzJDOTUuMDUwNiAzNC4wNTMyIDk2Ljg3MzMgMzMuMzYwMSA5OC4xODI0IDMxLjk3MzlDOTkuNTE3MyAzMC41ODc3IDEwMC4xNTkgMjguNzM5NCAxMDAuMTU5IDI2LjQ1NDdDMTAwLjE1OSAyNC4xOTU3IDk5LjU0MyAyMi4zOTg4IDk4LjI4NTEgMjEuMDg5NkM5Ny4wNzg2IDE5Ljc4MDQgOTUuMzA3NCAxOS4xMzg3IDkzLjA5OTcgMTkuMTM4N1YxOS4xMzg3Wk05NS43NDM4IDMwLjA3NDNDOTUuMTI3NyAzMC44NzAxIDk0LjE1MjIgMzEuMjU1MSA5Mi45NDU3IDMxLjI1NTFDOTEuNzEzNSAzMS4yNTUxIDkwLjc2MzcgMzAuODcwMSA5MC4wNzA2IDMwLjAyMjlDODkuMzc3NSAyOS4yMjcxIDg5LjA0MzggMjguMDcyIDg5LjA0MzggMjYuNjA4OEM4OS4wNDM4IDI1LjA5NDIgODkuNDAzMiAyMy45MzkgOTAuMDcwNiAyMy4xMTc2QzkwLjc2MzcgMjIuMjk2MSA5MS43MTM1IDIxLjg4NTQgOTIuOTIgMjEuODg1NEM5NC4wNzUyIDIxLjg4NTQgOTUuMDI1IDIyLjI3MDUgOTUuNjkyNCAyMy4wNjYyQzk2LjM1OTggMjMuODYyIDk2LjcxOTIgMjUuMDE3MiA5Ni43MTkyIDI2LjUzMThDOTYuNzE5MiAyOC4wNzIgOTYuMzg1NSAyOS4yNzg1IDk1Ljc0MzggMzAuMDc0M1YzMC4wNzQzWk0xMTggMjIuMTkzNVYxOS40NDY3SDExNC42MzdWMTUuMjM2OEwxMTQuNTM0IDE1LjI2MjRMMTExLjM1MSAxNi4yMTIzTDExMS4yNzQgMTYuMjM3OVYxOS40NDY3SDEwNi4yNDNWMTcuNjQ5OEMxMDYuMjQzIDE2LjgyODMgMTA2LjQ0OCAxNi4xODY2IDEwNi44MDggMTUuNzc1OUMxMDcuMTY3IDE1LjM2NTEgMTA3LjcwNiAxNS4xNTk4IDEwOC4zNzQgMTUuMTU5OEMxMDguODM2IDE1LjE1OTggMTA5LjMyMyAxNS4yNjI0IDEwOS44NjIgMTUuNDkzNUwxMDkuOTkxIDE1LjU3MDVWMTIuNjY5N0wxMDkuOTE0IDEyLjY0NDFDMTA5LjQ1MiAxMi40OSAxMDguODM2IDEyLjM4NzQgMTA4LjA0IDEyLjM4NzRDMTA3LjAzOSAxMi4zODc0IDEwNi4xNjYgMTIuNjE4NCAxMDUuMzcgMTMuMDAzNEMxMDQuNTc0IDEzLjQzOTggMTAzLjk4NCAxNC4wMzAzIDEwMy41NDggMTQuODI2QzEwMy4xMTEgMTUuNTk2MiAxMDIuODggMTYuNDY5IDEwMi44OCAxNy40NzAxVjE5LjQ0NjdIMTAwLjU0NFYyMi4xNjc4SDEwMi44OFYzMy42NjgxSDEwNi4yNDNWMjIuMTkzNUgxMTEuMjc0VjI5LjUwOTVDMTExLjI3NCAzMi41MTMgMTEyLjY4NiAzNC4wMjc1IDExNS41MSAzNC4wMjc1QzExNS45NzIgMzQuMDI3NSAxMTYuNDYgMzMuOTUwNSAxMTYuOTIyIDMzLjg3MzVDMTE3LjQxIDMzLjc3MDggMTE3Ljc2OSAzMy42NDI1IDExNy45NzQgMzMuNTM5OEwxMTggMzMuNTE0MVYzMC43Njc0TDExNy44NzIgMzAuODcwMUMxMTcuNjY2IDMwLjk5ODQgMTE3LjQ4NyAzMS4xMDExIDExNy4xNzkgMzEuMTc4MUMxMTYuOTIyIDMxLjI1NTEgMTE2LjY5MSAzMS4yODA4IDExNi41MTEgMzEuMjgwOEMxMTUuODQ0IDMxLjI4MDggMTE1LjM4MiAzMS4xMjY4IDExNS4wNDggMzAuNzQxN0MxMTQuNzQgMzAuMzgyMyAxMTQuNTg2IDI5Ljc5MTkgMTE0LjU4NiAyOC45MTkxVjIyLjE5MzVIMTE4VjIyLjE5MzVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="Microsoft" loading="lazy">
+                </div>
+                
+                <div>
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjQgNDkiPgogIDxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTI3LjUgMTIuNXYyN0w5IDM2LjJsMi4zLTE3LjljMC0uOC4xLS44IDEtMWwxLjktLjcgMS0uM2MuMS0xLjMuNy0zIDEuNi00LjMgMS4xLTEuOSAyLjYtMyA0LTMgLjggMCAxLjUuMyAyIC45aC4yYzEuMiAwIDIgLjYgMi43IDEuOWwuNSAxIC45LS4yYy4yLS4xLjQgMCAuNCAwek0yMy40IDExYzEgLjIgMS42IDEuNSAxLjggMi4ybC0xLjQuNWMwLS44LS4xLTEuOC0uNC0yLjd6bS0zLjYgNGMuMi0xLjIuOC0yLjQgMS41LTMuMWwxLS44Yy41LjkuNSAyIC41IDIuOWwtMyAxem0xLTVjLjQgMCAuNy4yIDEgLjMtLjUuMi0uOC41LTEuMiAxLTEgMS0xLjYgMi41LTIgNGwtMi40LjhjLjUtMi40IDIuNC02IDQuNy02em0uOSAxMi42bC45LTMuNXMtLjgtLjQtMi40LS4zYy00IC4yLTUuOSAzLjEtNS43IDYgLjEgMS45IDEuMiAyLjcgMi4yIDMuNC44LjUgMS40IDEgMS41IDEuOS4xIDIuMy0zLjIuNy00IDBsLS43IDIuOHMxLjYgMS44IDQuNiAxLjZjMi40LS4yIDQuMS0yLjIgNC01LjEtLjItMi4yLTEuOC0zLjMtMy00LS44LS42LTEuNS0xLTEuNS0xLjYgMC0uMyAwLTEuNSAxLjgtMS42IDEuMiAwIDIuMy40IDIuMy40eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+CiAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMyLjQgMTQuN2gtMi4ybC0yLTItLjItLjF2MjdsOC0yLjEtMy4zLTIyLjYtLjMtLjJ6TTEwMSAyMWgyLjVsLS41IDIuOGgtMi41bC0yIDEwLjNIOTVsMS45LTEwLjNoLTEuN2wuNS0yLjhoMS43bC4xLS42YTcgNyAwIDAxMi4xLTQuMmMxLS45IDIuMy0xLjIgMy41LTEuMiAxLjQgMCAyIC4zIDIgLjNsLS43IDIuOXMtLjUtLjItMS4xLS4yYy0xLjMgMC0yIDEuMS0yLjIgMi40bC0uMS42ek01OSAyMC43Yy0xLjYgMC0yLjkuOC0zLjkgMmwxLjQtNy41aC0zLjZsLTMuNiAxOC45SDUzbDEuMi02LjVjLjQtMi40IDEuNy0zLjkgMi44LTMuOS44IDAgMS4yLjYgMS4yIDEuNCAwIC41IDAgMS0uMiAxLjZMNTYuNiAzNGgzLjdsMS40LTcuNi4yLTIuNWMwLTItMS0zLjMtMy0zLjN6TTQ0LjYgMjQuN2MwIC42LjUgMSAxLjQgMS41IDEuNC44IDIuNiAyIDIuNiAzLjUgMCAzLTIuMyA0LjYtNS42IDQuNi0yLjIgMC0zLjYtLjktMy42LS45bDEtMi42czEuNC44IDIuOS44YzEgMCAxLjYtLjYgMS42LTEuMyAwLS42LS40LTEuMS0xLjUtMS43LTEuNC0uOC0yLjQtMi0yLjQtMy40IDAtMi42IDIuMi00LjUgNS4zLTQuNSAyLjMgMCAzIC42IDMgLjZsLS44IDIuN3MtMS0uNS0yLjItLjVjLTEgMC0xLjcuNC0xLjcgMS4yeiIvPgogIDxwYXRoIGZpbGw9IiNmZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTYyLjkgMjkuMmMwLTQuNSAyLjktOC41IDcuMi04LjUgMy40IDAgNSAyLjUgNSA1LjIgMCA0LjUtMyA4LjQtNy4yIDguNC0zLjMgMC01LTIuMy01LTUuMXptMy43LS4xYzAgMS4zLjUgMi40IDEuOCAyLjQgMS45IDAgMy0zLjUgMy01LjcgMC0xLjEtLjUtMi4zLTEuOC0yLjMtMiAwLTMgMy41LTMgNS42ek04MC41IDIyLjlzMS40LTIuMiAzLjgtMi4yYzIuNyAwIDMuOCAyLjIgMy44IDQuNyAwIDQuNS0yLjggOS03IDktMS41IDAtMi4yLS41LTIuMi0uNWwtMSA1LjRoLTMuN2wyLjUtMTMuNS43LTQuOWgzLjNsLS4zIDJoLjF6TTc5LjQgMzFzLjUuNiAxLjUuNmMyIDAgMy40LTMuNCAzLjQtNS44IDAtMS0uNC0yLTEuNS0yLTEuMiAwLTIuNCAxLjUtMi44IDMuOGwtLjYgMy40eiIgY2xpcC1ydWxlPSJldmVub2RkIi8+CiAgPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTkxLjIgMTcuNWEyIDIgMCAwMTItMmMxLjEgMCAxLjkuNyAxLjkgMS44YTIgMiAwIDAxLTIuMiAyYy0xIDAtMS43LS43LTEuNy0xLjh6TTkxLjggMzRoLTMuNmwyLjQtMTNoMy43bC0yLjUgMTN6TTExMi4yIDIxcy0yLjMgNS44LTMuMyA5YzAtMS0xLTktMS05aC0zLjdsMi4yIDEyLS4xLjZjLS40LjgtMS4yIDEuNi0yIDIuMi0uNy41LTEuNC45LTIgMWwxIDMuMmMuNy0uMiAyLjItLjggMy41LTJhMjUgMjUgMCAwMDQuOC03LjNMMTE2IDIxaC0zLjh6Ii8+Cjwvc3ZnPgo=" alt="Shopify" loading="lazy">
+                </div>
+                
+                <div>
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjQgNDkiPgogIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMyAyMWMwIDItMS44IDMuMi0zLjYgMy4yLTEgMC0yLjEtLjItMy40LS42IDAtMSAwLTIgLjItMy4xSDd2LjJjMCAxLjYuOCAyLjQgMi4zIDIuNCAxIDAgMS44LS40IDEuOC0xLjQgMC0xLTEtMS43LTEuOC0yLjEtMS41LS44LTMuMi0xLjctMy4yLTMuN0M2IDE0IDcuOCAxMyA5LjUgMTNjMSAwIDIgLjIgMyAuNWwtLjEgMi42aC0uN2MtLjItMS40LTEtMi0yLTJzLTEuOC40LTEuOCAxLjNjMCAxIDEgMS42IDEuOCAyIDEuNi43IDMuNCAxLjYgMy40IDMuNnpNMjcuMiAxMy4yVjE2aC0uN2MwLS42LS4yLTEuMS0uNC0xLjQtLjYtLjYtMS42LS40LTIuMy0uNFYyM2wxLjMuMnYuOGgtNC44di0uOGMuNSAwIC44LS4yIDEtLjMuMi0uMS4zLS4zLjMtLjd2LThjLS43IDAtMS44LS4zLTIuMy4zLS4yLjMtLjMuOC0uNCAxLjVsLS43LS4xdi0yLjdoOXpNMzUgMTkuM2gyLjdsLTEuNC00LjUtMS40IDQuNXptMi41IDQuN3YtLjhsMS4zLS40LS44LTIuNWgtMy4zbC0uOSAyLjZjLjMuMi44LjMgMS40LjNsLS4xLjhoLTMuNmwuMS0uOGMuNi0uMiAxLS41IDEuMi0xbDMtOSAyLjEtLjIgMyA5LjJjMCAuMy4yLjYuNC43LjIuMi41LjMuOS4zdi44aC00Ljd6TTU4IDEzLjJsLS4xLjhjLS44LjEtMS4xLjQtMS4xIDF2OWgtMWwtNS4zLTctMS0xLjVWMjNsMS4yLjJ2LjhINDd2LS44Yy40IDAgLjctLjIuOS0uMy4yLS4yLjMtLjQuMy0uN3YtOGMtLjMtLjItLjctLjItMS4zLS4ybC4xLS44aDMuMmw0LjIgNS41IDEgMS42di02Yy0uMy0uMi0uNy0uMy0xLjItLjN2LS4yLS42SDU4ek03MS42IDEzLjJWMTZoLTFjMC0uOC0uMi0xLjQtLjQtMS41LS4yLS4zLS41LS40LTEtLjRoLTIuNHY0LjRsMy0uMnYxLjJsLTMtLjF2My40Yy40LjIgMSAuMyAxLjguNHYuOGgtNS4xdi0uOGMuNCAwIC43LS4yLjktLjMuMi0uMS4zLS40LjMtLjd2LThsLTEuMy0uMi4xLS44aDguMXpNODQuNSAxOC44YzAtMy4yLS45LTQuOS0yLjYtNC45LTEuNiAwLTIuNCAxLjUtMi40IDQuNSAwIDEuNy4yIDQuOSAyLjYgNC45IDEuNiAwIDIuNC0xLjUgMi40LTQuNXpNODIgMjQuMmMtMy4yIDAtNS0yLjYtNS01LjYgMC0yLjkgMS44LTUuNiA1LTUuNiAzLjEgMCA1IDIuNyA1IDUuNiAwIDMtMS45IDUuNi01IDUuNnpNOTYgMTguMkg5N2MxLjMgMCAyLS44IDItMiAwLTEuMy0uNy0yLTItMkg5NnY0em02LjcgNXYuOGgtMi45bC0yLTQuMy0uNC0uNWMtLjQtLjMtMS0uMi0xLjQtLjJWMjNsMS40LjN2LjhoLTQuN3YtLjhjLjQgMCAuNy0uMi45LS4zLjItLjEuMi0uMy4yLS43di04bC0xLjItLjIuMS0uOGg0LjhjMS45IDAgNCAuOCA0IDMgMCAxLjMtMSAyLjItMi4zIDIuNi40LjIuNy42IDEgMSAuNCAxIC44IDIuNSAxLjcgMy4xbC44LjJ6TTExMS4yIDIzaDFjMi42IDAgMy41LTIuMiAzLjUtNC40IDAtMi4zLTEtNC41LTMuNi00LjVoLTF2OXptMS4yLTkuOGMzLjIgMCA1LjYgMi4yIDUuNiA1LjRzLTIuMiA1LjQtNS40IDUuNGgtNC43di0uOGMuNCAwIC43LS4yLjgtLjMuMi0uMS4zLS4zLjMtLjd2LThhMyAzIDAgMDAtMS4yLS4ydi0uOGg0LjZ6TTI3LjggMzEuM3YuNWMtLjQgMC0uNy4xLS43LjV2My41YzAgLjctLjMgMS4zLS44IDEuNy0uNC4zLTEgLjUtMiAuNS0uNyAwLTEuNC0uMi0xLjktLjUtLjQtLjQtLjctMS0uNy0xLjd2LTMuOWwtLjctLjF2LS41aDIuN3YuNWMtLjQgMC0uNy4xLS43LjV2My41YzAgMSAuNSAxLjUgMS40IDEuNS45IDAgMS4zLS41IDEuMy0xLjV2LTMuOWEyIDIgMCAwMC0uNy0uMXYtLjVoMi44ek0zNy43IDMxLjN2LjVjLS41IDAtLjcuMi0uNy42djUuNWgtLjZsLTMuOS01LjJ2NC42aC44di42SDMxdi0uNWMuNCAwIC44LS4yLjgtLjZ2LTVIMzF2LS41aDJsMy4yIDQuM1YzMmEyIDIgMCAwMC0uNy0uMXYtLjVoMi4yek00My4xIDMyLjN2NWguOHYuNkg0MXYtLjVjLjQgMCAuNy0uMi43LS42VjMybC0uNy0uMXYtLjVoMi43di41YTEgMSAwIDAwLS41LjFsLS4yLjR6TTQ2LjggMzEuOHYtLjVoMi44di41bC0uNi4xdi41bDEuMyAzLjMuMy42IDEuNy00LjQtLjgtLjF2LS41aDJ2LjVhMSAxIDAgMDAtLjUuMSAxIDEgMCAwMC0uMy40TDUwLjQgMzhINTBsLTIuNS02LS42LS4xek01OC41IDM3LjNINjBjLjQgMCAuNiAwIC43LS4zbC4yLTFoLjZhMTUuMyAxNS4zIDAgMDEwIDEuOWgtNXYtLjVsLjUtLjIuMS0uNFYzMmwtLjctLjF2LS41aDVWMzNoLS42bC0uMi0xYS44LjggMCAwMC0uNi0uMmgtMS41djIuNWwxLjktLjF2LjdoLTJ2Mi40ek02NyAzNC4zaC42Yy44IDAgMS4yLS40IDEuMi0xLjIgMC0uOC0uNC0xLjMtMS4yLTEuM2gtLjd2Mi41em00IDN2LjZoLTEuN0w2OCAzNS4zYy0uMS0uMy0uMy0uNC0uNi0uNGgtLjV2Mi4zbC45LjJ2LjVoLTNsLjEtLjVjLjMgMCAuNC0uMS41LS4ybC4yLS40VjMyYTIgMiAwIDAwLS43LS4xdi0uNWgzYzEgMCAyLjMuNSAyLjMgMS44IDAgLjgtLjUgMS40LTEuMyAxLjZsLjYuNy43IDEuM2MwIC4zLjIuNC4zLjVsLjUuMXpNNzguOCAzNmMwIDEuMy0xLjIgMi0yLjMgMmE3IDcgMCAwMS0yLS40di0xLjljLjEgMCAuNSAwIC41LjIgMCAxIC41IDEuNSAxLjUgMS41LjUgMCAxLS4zIDEtMSAwLTEtMS4yLTEuMy0yLTEuN2EyIDIgMCAwMS0xLTEuOGMwLTEuMSAxLTEuNyAyLTEuNy43IDAgMS4zIDAgMiAuMyAwIC41IDAgMS0uMiAxLjZhMyAzIDAgMDEtLjQgMGMtLjEtMS0uNS0xLjMtMS4zLTEuMy0uNSAwLTEgLjMtMSAuOCAwIC42LjYgMSAxLjEgMS4zIDEgLjQgMiAxIDIgMi4yek04NC4yIDMyLjN2NWguN3YuNkg4MnYtLjVsLjYtLjIuMS0uNFYzMmwtLjctLjF2LS41SDg1di41Yy0uNCAwLS43LjEtLjcuNXpNOTMuNSAzMS4zYTcuNCA3LjQgMCAwMTAgMS42aC0uNGMwLS40LS4yLS43LS4zLS44LS4zLS40LTEtLjMtMS40LS4zdjUuNWguOHYuNmgtM2wuMS0uNS42LS4yLjItLjR2LTVjLS41IDAtMS4xIDAtMS40LjMtLjIuMS0uMy40LS4zLjlIODhhNy44IDcuOCAwIDAxMC0xLjdoNS41ek05OS4xIDMxLjhjLS40IDAtLjYuMS0uNi4zdi4zbDEuMyAyLjJjLjMtMSAxLTEuOSAxLjYtMi43bC0uNi0uMXYtLjVoMmwtLjEuNWExIDEgMCAwMC0uNS4xbC0uMy40LTEuNyAyLjh2Mi4yaC44di42aC0zdi0uNWguNGwuMy0uNnYtMS43bC0yLTMuMi0uNS0uMXYtLjVIOTl2LjV6Ii8+Cjwvc3ZnPgo=" alt="Stanford University" loading="lazy">
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="libraryDiv">
+            <h2 class="libraryHeading">Develop valuable new skills.</h2>
+            <p class="libraryDesc">Search our library of over 600 books, courses, and tech talks. New content added every week.</p>
+            <div class="searchLibrary">
+                <input type="text" placeholder="Search for..." class="searchLibraryInput">
+                <button class="searchButton">
+                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16 " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="library">
+                <div class="librarySection sectionOne">
+
+                    <svg aria-hidden="true" focusable="false" class="libraryController leftSlide" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
+                    </svg>
+
+                    <div class="books">
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/your-first-week-with-react-2nd-edition/read/1?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/55df0dc0-1984-4f96-b56e-a31962801b30_medium.jpg" alt="Your First Week With React, 2nd Edition" loading="lazy">
+                            </a>
+                        </div>
+
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/learn-to-code-with-javascript/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/1c23adc3-7155-4430-8a45-ba14affb290d_medium.jpg" alt="Learn to Code with JavaScript" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/the-principles-of-beautiful-web-design-4th-edition/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/2f00bf1d-b9d1-47b8-bb09-d6503516c2e4_medium.jpg" alt="The Principles of Beautiful Web Design, 4th Edition" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/upgrade-your-html-ii/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/18e8ff56-441c-4872-b94c-900c5405ddc1.jpg" alt="Upgrade your HTML II" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition/read?from=homepage" class="book"
+                                ><img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/65fcb194-ae0b-4f2f-88f9-15107855f727_medium.jpg" alt="JavaScript: Novice to Ninja, 2nd Edition" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/aaf9edd8-c90d-4eba-8a66-a88c43d300d7_medium.jpg" alt="Your First Week With Node.js, 2nd Edition" loading="lazy">
+                            <a href="https://www.sitepoint.com/premium/books/your-first-week-with-node-js-2nd-edition/read?from=homepage" class="book">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/your-first-week-with-node-js-2nd-edition/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/aaf9edd8-c90d-4eba-8a66-a88c43d300d7_medium.jpg" alt="Your First Week With Node.js, 2nd Edition" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/css-master-3rd-edition/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/8e351d6f-2162-4d9d-8985-181fecb0d78b_medium.png" alt="CSS Master, 3rd Edition" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/javascript-the-new-toys/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/aafedd5e-3831-4fc7-bd16-2d2bef899910_medium.jpg" alt="JavaScript: The New Toys" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/modern-css-layout/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/0c7253a9-f2f1-4e69-9ade-95223d68f6d0_medium.jpg" alt="Modern CSS Layout" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/jump-start-vue-js/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/cb99b54b-6cdc-4657-b25f-783690ede843_medium.jpg" alt="Jump Start Vue.js" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/html5-games-novice-to-ninja/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/6d5a8333-2cf9-4407-bedf-6d2181474961_medium.jpg" alt="HTML5 Games: Novice to Ninja" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/learn-angular-your-first-week/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/73bc3e3e-ef0f-4b37-8050-116ae57ed0c8_medium.jpg" alt="Learn Angular: Your First Week" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/css-animation-de-animating-the-undead-horde/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/d9fdee5c-2416-4253-92cd-de31c8ad44df_medium.jpg" alt="CSS Animation: De-Animating the Undead Horde" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/an-introduction-to-data-visualization-with-vue-and-d3-js/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/6abe81a9-82af-4193-9ca2-4b3278650ffb_medium.jpg" alt="An Introduction to Data Visualization with Vue and D3.js" loading="lazy">
+                            </a>
+                        </div>
+
+                    </div>    
+
+                    <svg aria-hidden="true" focusable="false" class="libraryController rightSlide" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+                    </svg>
+                </div>
+                
+                <div class="librarySection sectionTwo">
+
+                    <svg aria-hidden="true" focusable="false" class="libraryController leftSlide" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
+                    </svg>
+
+                    <div class="books">
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/linux-bible-10th-edition/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/76c37f06-4766-4422-818b-89fe8d91a7fb_medium.jpg" alt="Linux Bible, 10th Edition" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/docker-for-web-developers/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/84cf0c62-a36b-40de-9a0a-522f583a40da_medium.jpg" alt="Docker for Web Developers" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/learn-php-in-one-day-and-learn-it-well/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/c9b66606-0a09-4e61-a893-df52db1efc92_medium.jpeg" alt="Learn PHP in One Day and Learn It Well" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/ruby-is-for-fun/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/cdeec71f-e687-41a6-980c-0eaff97acd0b_medium.jpg" alt="Ruby Is For Fun" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/hacking-for-dummies/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/8ed5176e-98db-4061-86b4-781038146e34_medium.jpg" alt="Hacking For Dummies" loading="lazy">
+                            </a>
+                        </div>
+                    </div>
+
+                    <svg aria-hidden="true" focusable="false" class="libraryController rightSlide" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+                    </svg>
+
+                </div>
+                
+                <div class="librarySection sectionThree">
+                    <svg aria-hidden="true" focusable="false" class="libraryController leftSlide" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M34.52 239.03L228.87 44.69c9.37-9.37 24.57-9.37 33.94 0l22.67 22.67c9.36 9.36 9.37 24.52.04 33.9L131.49 256l154.02 154.75c9.34 9.38 9.32 24.54-.04 33.9l-22.67 22.67c-9.37 9.37-24.57 9.37-33.94 0L34.52 272.97c-9.37-9.37-9.37-24.57 0-33.94z"></path>
+                    </svg>
+
+                    <div class="books">
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/python-machine-learning/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/f67b8425-7d3b-4cb7-befc-2983111ab2d8_medium.jpg" alt="Python Machine Learning" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/python-web-development-with-django-and-flask-getting-started/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/0c4d4bb0-8eca-4f27-a900-5b1fafb75d70_medium.jpg" alt="Python Web development with Django and Flask" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/the-python-apprentice/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/69bf9beb-dbae-4169-94ef-34e04f4d3b86_medium.jpg" alt="The Python Apprentice" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/the-python-journeyman/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/d590b349-f546-40a2-bfad-59b8ade78caa_medium.jpg" alt="The Python Journeyman" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/the-python-master/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/1f3c3ca2-7daf-42ea-a917-edb70a589697_medium.jpg" alt="The Python Master" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/essential-algorithms-a-practical-approach-to-computer-algorithms-using-python-and-c-2nd-edition/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/a9d0dde7-1ddc-400f-ada7-bc89caaf50b8_medium.jpg" alt="Essential Algorithms: A Practical Approach to Computer Algorithms Using Python and C#, 2nd Edition" loading="lazy">
+                            </a>
+                        </div>
+
+                        <div class="book">
+                            <a href="https://www.sitepoint.com/premium/books/a-beginner-s-guide-to-npm-the-node-package-manager/read?from=homepage" class="book">
+                                <img class="bookImage" src="https://d2sis3lil8ndrq.cloudfront.net/books/a14b3bde-5148-4f24-bcb5-811b2a1d2d5a_medium.jpg" alt="A Beginner’s Guide to npm, the Node Package Manager" loading="lazy">
+                            </a>
+                        </div>
+                    </div>
+
+                    <svg aria-hidden="true" focusable="false" class="libraryController rightSlide" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+                    </svg>
+                </div>
+
+                <button type="button" class="libraryButton brightBtn">Browse the Complete Library</button>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <h3 class="categoriesHeading">What do you want to learn today?</h3>
+            <div class="categoriesDiv">
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zOC41MDAzIDQ2Ljc1MUM0Mi41MDczIDQ2Ljc1MSA0NS43NDUgNDMuNDk3OSA0NS43NDUgMzkuNDk4NEM0NS43NDUgMzUuNDk4OSA0Mi41MDczIDMyLjI0NTcgMzguNTAwMyAzMi4yNDU3QzM0LjQ5MyAzMi4yNDU3IDMxLjI1NTcgMzUuNDk4OSAzMS4yNTU3IDM5LjQ5ODRDMzEuMjU1NyA0My40OTc5IDM0LjQ5MyA0Ni43NTEgMzguNTAwMyA0Ni43NTFaIiBmaWxsPSIjNjFEQUZCIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMzguNDk3MyA2NS4wNzMzQzM2LjM1NjMgNjcuMTA5OSAzNC4wNTExIDY5LjAwMjggMzEuNDk0NCA3MC41MDU5QzI4Ljc1OTEgNzIuMTE0IDI2LjE0NCA3Mi45OTc5IDIzLjc5NjMgNzIuOTk5MUMyMi4zODA0IDczLjAxODggMjAuOTg1MSA3Mi42NjEyIDE5Ljc1MyA3MS45NjMyTDE5Ljc0ODMgNzEuOTYwNUMxNy4xNzYyIDcwLjQ3NTkgMTUuNzE5IDY3LjY0NzQgMTUuMjczOSA2My45MzM0QzE0Ljg4OTEgNjAuNzIyNSAxNS4yNDgzIDU2Ljc3OTUgMTYuMzQxNiA1Mi4yNzc3QzExLjg5ODQgNTAuOTcyMiA4LjMwNDkxIDQ5LjMxMDMgNS43MTYxMyA0Ny4zNzFDMi43MTk1MyA0NS4xMjYyIDEgNDIuNDUwMiAxIDM5LjQ4NjRDMSAzNi41MjI2IDIuNzE5NTMgMzMuODQ2NiA1LjcxNjEzIDMxLjYwMThDOC4zMDQ1OCAyOS42NjI1IDExLjg5ODEgMjguMDAwOCAxNi4zNDEyIDI2LjY5NTJDMTUuMjQ3OSAyMi4xOTMxIDE0Ljg4OTEgMTguMjUwMSAxNS4yNzM5IDE1LjAzODlDMTUuNzE5IDExLjMyNDMgMTcuMTc2MiA4LjQ5NTMgMTkuNzQ3NyA3LjAwOTA5QzIxLjI0NjUgNi4xNDI0OCAyMi45ODEzIDUuODUzNjYgMjQuODYzNiA2LjA2NzU1QzI2LjE2NTcgNi4yMTU0MiAyNy41MzggNi42MDM3OSAyOC45NTE1IDcuMjA3NzdDMzEuOTM4MiA4LjQ4MzgyIDM1LjE4NDUgMTAuNzUgMzguNSAxMy44OTg4QzQxLjgxNDIgMTAuNzUxNCA0NS4wNTkyIDguNDg1OTYgNDguMDQ1NSA3LjIwOTkyQzUxLjUwMjUgNS43MzI2MyA1NC43MTQ1IDUuNTQ0ODUgNTcuMjUyMyA3LjAwODg0QzU5LjgyNDEgOC40OTQ5NyA2MS4yODEzIDExLjMyNCA2MS43MjY4IDE1LjAzODNDNjIuMTEyIDE4LjI0OTEgNjEuNzUzNyAyMi4xOTE0IDYwLjY2MTggMjYuNjkyMkM2NS4xMDM2IDI3Ljk5NzkgNjguNjk2MSAyOS42NTk2IDcxLjI4NDIgMzEuNTk5MUM3NC4yODA1IDMzLjg0NDUgNzYgMzYuNTIxMiA3NiAzOS40ODY0Qzc2IDQyLjQ1MTcgNzQuMjgwNSA0NS4xMjc2IDcxLjI4NDIgNDcuMzcyMUM2OC42OTU4IDQ5LjMxMTEgNjUuMTAyOSA1MC45NzI0IDYwLjY2MDggNTIuMjc3OEM2MS43NTIxIDU2Ljc3ODQgNjIuMTEwNiA2MC43MjEzIDYxLjcyNTggNjMuOTMyNEM2MS4yODA3IDY3LjY0NjYgNTkuODI0MSA3MC40NzU5IDU3LjI1MiA3MS45NjA3TDU3LjI0NzMgNzEuOTYzNEM1Ni4wMTYyIDcyLjY2MDggNTQuNjIxOSA3My4wMTg0IDUzLjIwNyA3Mi45OTkzQzUwLjg1NjYgNzIuOTk4IDQ4LjIzOTkgNzIuMTE0MyA0NS41MDMzIDcwLjUwNjFDNDMuMjUzOSA2OS4xODQzIDQwLjg5ODYgNjcuMzU2NyAzOC40OTczIDY1LjA3MzNaTTIwLjY0MzYgMjUuNjAyNEMxOS43MjM3IDIxLjc4NSAxOS40MDAxIDE4LjQ5NDcgMTkuNjMxNSAxNS45NTM0QzE5Ljg1NTkgMTMuNDg1MSAyMC44MDE0IDEwLjQwMTEgMjMuNzkxMyAxMC40MDExQzI1LjI0MTggMTAuNDAxMSAyNy4wNjMyIDEwLjk5OTMgMjkuMTUwMyAxMi4yMTY1QzMxLjA4OTIgMTMuMzQ3MSAzMy4yMTAyIDE0Ljk4NDEgMzUuNDA4MiAxNy4wNzQ2QzMzLjM1OTcgMTkuMzQwMyAzMS40NDc4IDIxLjcyNjMgMjkuNjgyMyAyNC4yMTk4QzI2LjY0NDQgMjQuNTAyNyAyMy42MjYyIDI0Ljk2NDQgMjAuNjQzNiAyNS42MDI0Wk00MS41NjgyIDE3LjIwMDJDNDQuNDM4NiAxNC41MDA5IDQ3LjE0NzYgMTIuNTc3NSA0OS40ODA3IDExLjUwNTdDNTEuNzQ2NSAxMC40NjQ2IDU0LjkwOTkgOS43MzUzMiA1Ni40MDUxIDEyLjMwNTRDNTcuMTMwMSAxMy41NTIzIDU3LjUxOSAxNS40MTcxIDU3LjUwMDQgMTcuODE5OEM1Ny40ODM0IDIwLjA1MTcgNTcuMTE1OCAyMi42OTM1IDU2LjM5MDcgMjUuNjI4MUM1My4zODk4IDI1LjAwMDIgNTAuMzUxOSAyNC41NDk2IDQ3LjI5MzcgMjQuMjc4N0M0NS41Mjc5IDIxLjgwODggNDMuNjE2IDE5LjQ0NTIgNDEuNTY4MiAxNy4yMDAyWk0yNS43NzQ1IDM5LjQ4NTZDMjcuNjMwMiA0My4zMDg5IDI5Ljc1NzIgNDYuOTkzNyAzMi4xMzk2IDUwLjUxMTZDMzYuNDIyOSA1MC44MTgzIDQwLjU4MDQgNTAuODE4MSA0NC44NjM3IDUwLjUxMTZDNDcuMjQ2MSA0Ni45OTQzIDQ5LjM3MjEgNDMuMzA5NiA1MS4yMjU4IDM5LjQ4NkM0OS4zNzUxIDM1LjY2MDQgNDcuMjQ4MSAzMS45NzU0IDQ0Ljg2MTEgMjguNDYwN0M0MC42MjYgMjguMTU0NSAzNi4zNzQzIDI4LjE1NDUgMzIuMTM4OSAyOC40NjA3QzI5Ljc1MDkgMzEuOTc0NyAyNy42MjM5IDM1LjY1OTYgMjUuNzc0NSAzOS40ODU2Wk0yMS44NjI0IDQ5LjEwMjVDMjIuMzQ0NCA0Ny42MTc5IDIyLjg3NTEgNDYuMTQ5OCAyMy40NTM3IDQ0LjcwMDZDMjQuMzk5MSA0Ni40Njk1IDI1LjQwMjkgNDguMjA4NiAyNi40NjE2IDQ5LjkxMDdDMjQuODc3IDQ5LjY4NTUgMjMuMzQxMiA0OS40MTU3IDIxLjg2MjQgNDkuMTAyNVpNMjAuNjQzMiA1My4zNjdDMjMuNjI0OCA1NC4wMDU5IDI2LjY0MTggNTQuNDY3NCAyOS42NzggNTQuNzQ5MkwyOS42ODE2IDU0Ljc1NDVMMjkuNjg2MyA1NC43NTQ5QzMxLjQ1MTQgNTcuMjQ2NiAzMy4zNjIxIDU5LjYzMTUgMzUuNDA4MiA2MS44OTcxQzMyLjYwNzcgNjQuNTU0NSAyOS45MTcgNjYuNDczMSAyNy41ODc2IDY3LjU1MThDMjUuMDk0IDY4LjcwNjUgMjMuMTg2NCA2OC44MjUgMjEuOTY5OSA2OC4xMzA1QzIwLjczNzEgNjcuNDE3NyAxOS44Nzc4IDY1LjczMTQgMTkuNjMwMSA2My4wMTc0QzE5LjM5ODQgNjAuNDc1NCAxOS43MjI0IDU3LjE4NDQgMjAuNjQzMiA1My4zNjdaTTM4LjQ5NyA1OC43MDE5QzM3LjQ1NCA1Ny41NDEyIDM2LjQ0ODkgNTYuMzQ2NyAzNS40ODM0IDU1LjEyMDhDMzcuNDgyIDU1LjE4MTIgMzkuNDc0OCA1NS4xODg3IDQxLjUwOTMgNTUuMTIxQzQwLjU0NDggNTYuMzQ3MSAzOS41NCA1Ny41NDEzIDM4LjQ5NyA1OC43MDE5Wk0xNy41NDU3IDMwLjk1NjZDMTguNDgzOSAzMy44NjM2IDE5LjU5NDUgMzYuNzEyIDIwLjg3MTYgMzkuNDg2NkMxOS41OTU5IDQyLjI2MTYgMTguNDg1NiA0NS4xMDk4IDE3LjU0NjEgNDguMDE2MkMxMy43ODUxIDQ2LjkwNDMgMTAuNzc3MiA0NS41Mzk5IDguNjk0MDkgNDQuMDdDNi40Njk4NiA0Mi41MDAzIDUuNDM3ODEgNDAuOTEzNiA1LjQzNzgxIDM5LjQ4NjRDNS40Mzc4MSAzOC4wNTc1IDYuNDcwMTkgMzYuNDcwMSA4LjY5NDA5IDM0LjkwMDVDMTAuNzc2OCAzMy40MzA2IDEzLjc4NDggMzIuMDY3IDE3LjU0NTcgMzAuOTU2NlpNNDcuMzExNCA1NC43NTVDNDUuNTQ4OSA1Ny4yNDgzIDQzLjYzOTMgNTkuNjMzNiA0MS41OTIyIDYxLjg5OEM0My43OTAxIDYzLjk4ODQgNDUuOTExNCA2NS42MjU0IDQ3Ljg1IDY2Ljc1NkM0OS45MzcxIDY3Ljk3MzIgNTEuNzU4NSA2OC41NzE1IDUzLjIwOSA2OC41NzE1QzUzLjkyODggNjguNTcxNSA1NC41Mzk0IDY4LjQxNTEgNTUuMDI5MSA2OC4xMzE0QzU2LjI2MjYgNjcuNDE5MSA1Ny4xMjI1IDY1LjczMjYgNTcuMzcwMiA2My4wMTc2QzU3LjYwMTkgNjAuNDc1NSA1Ny4yNzggNTcuMTg0NSA1Ni4zNTcxIDUzLjM2NzFDNTMuMzc1OCA1NC4wMDU1IDUwLjM1OTYgNTQuNDY2OSA0Ny4zMjM3IDU0Ljc0ODlMNDcuMzIgNTQuNzU0M0w0Ny4zMTE0IDU0Ljc1NVpNNTAuNTM4NyA0OS45MTM0QzUyLjA3OTQgNDkuNjkwOCA1My42MTI5IDQ5LjQxODIgNTUuMTM2MyA0OS4wOTU4QzU0LjY1NDYgNDcuNjE0OSA1NC4xMjQ2IDQ2LjE1MDMgNTMuNTQ2OSA0NC43MDQ2QzUyLjYwMTUgNDYuNDczNCA1MS41OTggNDguMjEwNiA1MC41Mzg3IDQ5LjkxMzRaTTU1LjEzNiAyOS44NzQ4QzUzLjYxMDIgMjkuNTUxMSA1Mi4wNzQ0IDI5LjI3NzUgNTAuNTMxNCAyOS4wNTQ2QzUxLjU5MTcgMzAuNzYwNCA1Mi41OTY4IDMyLjUwMDQgNTMuNTQ0NiAzNC4yNzE1QzU0LjEyMjkgMzIuODI0IDU0LjY1MzYgMzEuMzU3NyA1NS4xMzYgMjkuODc0OFpNNTYuMTMyNCAzOS40OTc0QzU3LjQ1NDQgNDIuMzkyNSA1OC41Njk3IDQ1LjI0NDYgNTkuNDU2MyA0OC4wMTU1QzYzLjIxNzYgNDYuOTAzNyA2Ni4yMjQ4IDQ1LjUzOTcgNjguMzA2OSA0NC4wN0M3MC41MzA4IDQyLjUwMDQgNzEuNTYyMiA0MC45MTM4IDcxLjU2MjIgMzkuNDg2NEM3MS41NjIyIDM4LjA1NzYgNzAuNTI5OCAzNi40NzA5IDY4LjMwNTkgMzQuOTAxN0M2Ni4yMjMyIDMzLjQzMjIgNjMuMjE1MiAzMi4wNjg1IDU5LjQ1NDMgMzAuOTU2N0M1OC41MTY4IDMzLjg2IDU3LjQwNzggMzYuNzA1IDU2LjEzMzEgMzkuNDc2NEw1Ni4xMzc3IDM5LjQ4NjNMNTYuMTMyNCAzOS40OTc0Wk00MS41MDk5IDIzLjg0ODdDNDAuNTQ2NSAyMi42MjQxIDM5LjU0MjcgMjEuNDMxNSAzOC41MDA3IDIwLjI3MjZDMzcuNDU4MyAyMS40MzE3IDM2LjQ1NDIgMjIuNjI0NCAzNS40OTAxIDIzLjg0ODhDMzcuNDk2MiAyMy43ODMgMzkuNTA0MSAyMy43ODI5IDQxLjUwOTkgMjMuODQ4N1pNMjYuNDY0MyAyOS4wNTY5QzI0LjkyMjYgMjkuMjc5OSAyMy4zODgxIDI5LjU1MzIgMjEuODYzNyAyOS44NzYyQzIyLjM0NjEgMzEuMzU4NiAyMi44NzYxIDMyLjgyNDYgMjMuNDUzNyAzNC4yNzJDMjQuNCAzMi41MDEyIDI1LjQwODMgMzAuNzY1MiAyNi40NjQzIDI5LjA1NjlaIiBmaWxsPSIjNjFEQUZCIi8+Cjwvc3ZnPgo=" alt="React" loading="lazy">
+                    <h4 class="categorySubHeading">React</h4>
+                </div>
+                
+                <div class="category">
+                   <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTcgMjFINjkuNVY1N0g3VjIxWiIgZmlsbD0iIzNFODYzRCIvPgo8cGF0aCBkPSJNNjkuNDEwNiA1Ny4xOTg2TDU5LjAwODkgMzkuMTMyM0w2OS40MTA2IDIxLjA2NjJMMzguMjA1NCAzTDcgMjEuMDY2MkwxNy40MDE4IDM5LjEzMjRMNy4wMDAwNSA1Ny4xOTg2TDM4LjIwNTMgNzUuMjY0OEw2OS40MTA2IDU3LjE5ODZaIiBmaWxsPSIjOUNDNjk2Ii8+CjxwYXRoIGQ9Ik01OS4wMDg5IDM5LjEzMjNMNjkuNDEwNiAyMS4wNjYyTDM4LjIwNTQgM0w1OS4wMDg5IDM5LjEzMjNaIiBmaWxsPSIjNzVCRjU4Ii8+CjxwYXRoIGQ9Ik0zOC4yMDU0IDNMMTcuNDAxOCAzOS4xMzI0TDcgMjEuMDY2MkwzOC4yMDU0IDNaIiBmaWxsPSIjNzVCRjU4Ii8+CjxwYXRoIGQ9Ik0xNy4zMjU1IDM5TDE3LjQwMTcgMzkuMTMyNEw3IDU3LjE5ODZMMzguMjA1MyA3NS4yNjQ4TDY5LjQxMDYgNTcuMTk4Nkw1OS4wMDg4IDM5LjEzMjNMNTkuMDg1IDM5SDU4LjkzMjZMNTkuMDA4OCAzOS4xMzIzTDM4LjIwNTMgNzUuMjY0OEwxNy40MDE3IDM5LjEzMjRMMTcuNDc4IDM5SDE3LjMyNTVaIiBmaWxsPSIjNTA5MTRGIi8+Cjwvc3ZnPgo=" alt="NodeJS" loading="lazy">
+                   <h4 class="categorySubHeading">NodeJS</h4>
+                </div>
+                
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM4LjE0NTMgNkMyMS4xOTQ0IDYgMjIuMjUyOCAxMy4zNTM2IDIyLjI1MjggMTMuMzUzNkwyMi4yNzE3IDIwLjk3MjFIMzguNDQ3NVYyMy4yNTk0SDE1Ljg0NjhDMTUuODQ2OCAyMy4yNTk0IDUgMjIuMDI4OCA1IDM5LjEzODNDNSA1Ni4yNDg0IDE0LjQ2NzQgNTUuNjQxNSAxNC40Njc0IDU1LjY0MTVIMjAuMTE3NVY0Ny43MDE4QzIwLjExNzUgNDcuNzAxOCAxOS44MTI5IDM4LjIzMSAyOS40MzM4IDM4LjIzMUg0NS40Nzc0QzQ1LjQ3NzQgMzguMjMxIDU0LjQ5MTEgMzguMzc2NyA1NC40OTExIDI5LjUxNjNWMTQuODY2MUM1NC40OTExIDE0Ljg2NjEgNTUuODYwMSA2IDM4LjE0NTMgNlpNMjkuMjI1OSAxMS4xMjMzQzMwLjc5MzkgMTEuMTIxOSAzMi4xMzc0IDEyLjQ1MTIgMzIuMTM1OSAxNC4wMzQ0QzMyLjEzNzQgMTUuNjAyMSAzMC44MDk0IDE2Ljk0NjkgMjkuMjI1OSAxNi45NDU1QzI3LjY0MjQgMTYuOTQ2OSAyNi4zMTQ1IDE1LjYwMjEgMjYuMzE1OSAxNC4wMzQ0QzI2LjMxNDUgMTIuNDY2NyAyNy42NDI0IDExLjEyMTkgMjkuMjI1OSAxMS4xMjMzWiIgZmlsbD0idXJsKCNwYWludDBfbGluZWFyKSIvPgo8cGF0aCBkPSJNMzguNjI3IDcyLjQ0ODhDNTUuNTc3OCA3Mi40NDg4IDU0LjUxOTQgNjUuMDk1MiA1NC41MTk0IDY1LjA5NTJMNTQuNTAwNiA1Ny40NzY5SDM4LjMyNDVWNTUuMTg5N0g2MC45MjUyQzYwLjkyNTIgNTUuMTg5NyA3MS43NzIgNTYuNDIwMyA3MS43NzIgMzkuMzEwMkM3MS43NzIgMjIuMjAwNCA2Mi4zMDQ2IDIyLjgwNzIgNjIuMzA0NiAyMi44MDcySDU2LjY1NDVWMzAuNzQ2N0M1Ni42NTQ1IDMwLjc0NjcgNTYuOTU5MSA0MC4yMTc1IDQ3LjMzODIgNDAuMjE3NUgzMS4yOTQ2QzMxLjI5NDYgNDAuMjE3NSAyMi4yODA5IDQwLjA3MTkgMjIuMjgwOSA0OC45MzI1VjYzLjU4MjlDMjIuMjgwOSA2My41ODI5IDIwLjkxMjQgNzIuNDQ4OCAzOC42MjcgNzIuNDQ4OFpNNDcuNTQ2MyA2Ny4zMjZDNDUuOTc4NCA2Ny4zMjc0IDQ0LjYzNDkgNjUuOTk4MSA0NC42MzYzIDY0LjQxNDlDNDQuNjM0OCA2Mi44NDcxIDQ1Ljk2MjggNjEuNTAyMSA0Ny41NDYzIDYxLjUwMzZDNDkuMTE0MyA2MS41MDIyIDUwLjQ1NzggNjIuODMxNSA1MC40NTY0IDY0LjQxNDdDNTAuNDU3OCA2NS45ODIzIDQ5LjEyOTggNjcuMzI3NCA0Ny41NDYzIDY3LjMyNloiIGZpbGw9InVybCgjcGFpbnQxX2xpbmVhcikiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjExLjQxNjciIHkxPSIxMS45NzY3IiB4Mj0iNDQuNTE4NyIgeTI9IjQ0LjczNjQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj4KPHN0b3Agc3RvcC1jb2xvcj0iIzM4N0VCOCIvPgo8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzNjY5OTQiLz4KPC9saW5lYXJHcmFkaWVudD4KPGxpbmVhckdyYWRpZW50IGlkPSJwYWludDFfbGluZWFyIiB4MT0iMzEuNzI3NyIgeTE9IjMzLjAyMDkiIHgyPSI2Ny4yNzQ4IiB5Mj0iNjYuNjEyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgo8c3RvcCBzdG9wLWNvbG9yPSIjRkZFMDUyIi8+CjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI0ZGQzMzMSIvPgo8L2xpbmVhckdyYWRpZW50Pgo8L2RlZnM+Cjwvc3ZnPgo=" alt="Python" loading="lazy">
+                    <h4 class="categorySubHeading">Python</h4>
+                </div>
+                
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3QgeD0iOCIgeT0iMTAiIHdpZHRoPSI2MSIgaGVpZ2h0PSI2MSIgZmlsbD0iYmxhY2siLz4KPHBhdGggZD0iTTYgOEg3MC44NzQyVjcyLjg3NDJINlY4Wk02NS41NTk5IDU3LjQwMTdDNjUuMDg2OSA1NC40NDE4IDYzLjE1OTYgNTEuOTU1IDU3LjQ0MjUgNDkuNjM1N0M1NS40NTMgNDguNzAzMSA1My4yNDE5IDQ4LjA1NDQgNTIuNTg1MSA0Ni41NTQyQzUyLjMzOTEgNDUuNjYyMiA1Mi4zMDEyIDQ1LjE3NTYgNTIuNDYwNyA0NC42NDg1QzUyLjg2NjIgNDIuOTAyMyA1NC45MzQgNDIuMzc3OSA1Ni41NTU5IDQyLjg2NDVDNTcuNjEwMSA0My4xODg4IDU4LjU4MzIgNDMuOTk5OCA1OS4xOTQxIDQ1LjI5NzJDNjEuOTg5MSA0My40NyA2MS45ODkxIDQzLjQ3IDYzLjkzOCA0Mi4yNTYzQzYzLjIwODIgNDEuMTIxIDYyLjg0NiA0MC42MzE3IDYyLjM1NCA0MC4xNDc5QzYwLjY1MTEgMzguMjQyMiA1OC4zODMyIDM3LjI2OTEgNTQuNjkzNSAzNy4zNTI5TDUyLjc4NzggMzcuNTkzNEM1MC45NjA1IDM4LjAzOTQgNDkuMjE5NyAzOS4wMTI2IDQ4LjE2NTUgNDAuMzFDNDUuMDg0IDQzLjc5OTcgNDUuOTczMyA0OS44ODE3IDQ5LjcwMzYgNTIuMzk1NkM1My4zOTMzIDU1LjE1MjcgNTguNzg4NyA1NS43NTgyIDU5LjQ3NzkgNTguMzU1OUM2MC4xMjY3IDYxLjUxODUgNTcuMTI2MyA2Mi41MzIxIDU0LjE2MzcgNjIuMTY3MkM1MS45NzE1IDYxLjY4MDcgNTAuNzU3OCA2MC41ODMyIDQ5LjQxOTcgNTguNTU1OUw0NC40NzMxIDYxLjM5NjhDNDUuMDQwNyA2Mi42OTQzIDQ1LjY4OTUgNjMuMjU5MyA0Ni42NjI2IDY0LjM5NDZDNTEuMzY2IDY5LjE0MTIgNjMuMTI0NCA2OC44OTc5IDY1LjIzNTUgNjEuNjgwN0M2NS4zMTM5IDYxLjQzNzQgNjUuODg0MyA1OS43NzUgNjUuNDM1NiA1Ny4yMjA2TDY1LjU1OTkgNTcuNDAxN1pNNDEuMjc4IDM3LjgxNzhIMzUuMjAxNUMzNS4yMDE1IDQzLjA1NjQgMzUuMTc3MiA0OC4yNjI1IDM1LjE3NzIgNTMuNTA5MkMzNS4xNzcyIDU2LjgzOTQgMzUuMzQ3NSA1OS44OTY2IDM0LjgwNDEgNjAuODM3M0MzMy45MTIxIDYyLjY5OTcgMzEuNjE0NSA2Mi40NjE5IDMwLjU3MTEgNjIuMTM0OEMyOS41MDA3IDYxLjYwNSAyOC45NTczIDYwLjg3NTIgMjguMzI3NSA1OS44MjM3QzI4LjE1NzIgNTkuNTM5OCAyOC4wMzAyIDU5LjI5MzggMjcuOTg0MiA1OS4yOTM4TDIzLjA1MTEgNjIuMzM0OEMyMy44NzU1IDY0LjAzNzggMjUuMDc4NCA2NS41MDI4IDI2LjYzIDY2LjQzNTRDMjguOTQxMSA2Ny44MTQgMzIuMDQ3IDY4LjI2IDM1LjI5ODggNjcuNTMwMkMzNy40MTUzIDY2LjkxOTMgMzkuMjM5OSA2NS42NjIzIDQwLjE5NDEgNjMuNzE2MUM0MS41NzI3IDYxLjIwMjIgNDEuMjgwNyA1OC4xMjA3IDQxLjI2NzIgNTQuNjcxNkM0MS4yOTk3IDQ5LjExOTQgNDEuMjY3MiA0My41NjQ2IDQxLjI2NzIgMzcuOTY5Mkw0MS4yNzggMzcuODE3OFoiIGZpbGw9IiNGN0RGMUUiLz4KPC9zdmc+Cg==" alt="JavaScript" loading="lazy">
+                    <h4 class="categorySubHeading">JavaScript</h4>
+                </div>
+
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTY5IDZMNjMuNDQyNyA2OC4yNTU0TDM4LjQ2MjcgNzUuMTgwN0wxMy41NTE0IDY4LjI2NTFMOCA2SDY5WiIgZmlsbD0iIzI2NERFNCIvPgo8cGF0aCBkPSJNNTguNjg1MSA2NC4yOTExTDYzLjQzNDIgMTEuMDkxMUgzOC41VjY5Ljg4NzJMNTguNjg1MSA2NC4yOTExWiIgZmlsbD0iIzI5NjVGMSIvPgo8cGF0aCBkPSJNMjAuNzI2NiAzNC4xODQzTDIxLjQxMSA0MS44MjA4SDM4LjUwMDJWMzQuMTg0M0gyMC43MjY2WiIgZmlsbD0iI0VCRUJFQiIvPgo8cGF0aCBkPSJNMzguNDk5NyAxOC43Mjc3SDM4LjQ3MzNIMTkuMzUwOEwyMC4wNDUgMjYuMzY0M0gzOC40OTk3VjE4LjcyNzdaIiBmaWxsPSIjRUJFQkVCIi8+CjxwYXRoIGQ9Ik0zOC41MDAxIDYxLjk2MjZWNTQuMDE3NEwzOC40NjY3IDU0LjAyNjNMMjkuOTYxOCA1MS43Mjk4TDI5LjQxODEgNDUuNjM5M0gyNS4yODU0SDIxLjc1MjJMMjIuODIyMSA1Ny42Mjk4TDM4LjQ2NSA2MS45NzI0TDM4LjUwMDEgNjEuOTYyNloiIGZpbGw9IiNFQkVCRUIiLz4KPHBhdGggZD0iTTQ3Ljg3NzIgNDEuODIwN0w0Ni45OTA4IDUxLjcyNDhMMzguNDczNiA1NC4wMjM2VjYxLjk2ODVMNTQuMTI5IDU3LjYyOTZMNTQuMjQzOSA1Ni4zMzk1TDU2LjAzODQgMzYuMjM0OUw1Ni4yMjQ3IDM0LjE4NDNMNTcuNjAzMyAxOC43Mjc3SDM4LjQ3MzZWMjYuMzY0M0g0OS4yMzQzTDQ4LjUzOTUgMzQuMTg0M0gzOC40NzM2VjQxLjgyMDdINDcuODc3MloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="CSS">
+                    <h4 class="categorySubHeading">CSS</h4>
+                </div>
+
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTggNkg2OUw2My40NTE5IDY4LjMxMzZMMzguNDMzMiA3NS4zNTYyTDEzLjU1NjggNjguMzEwN0w4IDZaIiBmaWxsPSIjRTM0RjI2Ii8+CjxwYXRoIGQ9Ik0zOC41MjY5IDY5LjA3MzNWMTEuMDg3OEg2My45NjZMNTkuMzM4NSA2My4xOTk0TDM4LjUyNjkgNjkuMDczM1oiIGZpbGw9IiNFQzYxM0IiLz4KPHBhdGggZD0iTTI3LjU3OTIgMjUuNzg4TDI4LjI1MzEgMzMuNjQyNlYzMy42NDU1SDU2LjExNTVMNTMuOTU0NCA1Ny4yMTc5TDM4LjMyOTcgNjEuMzg3OUwyMi41ODAxIDU3LjE5NzZMMjEuNjIxNSA0NS4xNDQxSDI5LjJMMjkuNzQ2MSA1MS4yNDE3TDM4LjMyOTcgNTMuNTgyNUw0Ni43ODI1IDUxLjI1OUw0Ny43Mjk1IDQxLjM1ODRIMjEuMjIwNkwxOS4xOTMxIDE4LjIxMDhMNTcuNDY2MiAxOC4yMTk1TDU2Ljc5ODIgMjUuNzk2NkwyNy41NzkyIDI1Ljc4OFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0zOC41MjY5IDI1Ljc5MTJMMjcuNTc5MSAyNS43ODhMMjguMjUzMSAzMy42NDI2VjMzLjY0NTVIMzguNTI2OVY0MS4zNTg0SDIxLjIyMDdMMTkuMTkzMSAxOC4yMTA4TDM4LjUyNjkgMTguMjE1MlYyNS43OTEyWiIgZmlsbD0iI0VCRUJFQiIvPgo8cGF0aCBkPSJNMzguNTI2OSA1My41MjgzVjYxLjMzNTNMMzguMzI5NyA2MS4zODc5TDIyLjU4MDEgNTcuMTk3NkwyMS42MjE1IDQ1LjE0NDFIMjkuMkwyOS43NDYxIDUxLjI0MTdMMzguMzI5NyA1My41ODI1TDM4LjUyNjkgNTMuNTI4M1oiIGZpbGw9IiNFQkVCRUIiLz4KPC9zdmc+Cg==" alt="HTML5">
+                    <h4 class="categorySubHeading">HTML5</h4>
+                </div>
+
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGVsbGlwc2UgY3g9IjM3LjcxMTkiIGN5PSIzNiIgcng9IjI3LjUiIHJ5PSIzMCIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTYwLjE2NjcgNkgxNi44MzMzQzEwLjg1NiA2LjAxNjI1IDYuMDE2MjUgMTAuODU2IDYgMTYuODMzM1Y2MC4xNjY3QzYgNjYuMTI1IDEwLjg3NSA3MSAxNi44MzMzIDcxSDYwLjE2NjdDNjYuMTI1IDcxIDcxIDY2LjEyNSA3MSA2MC4xNjY3VjE2LjgzMzNDNzEgMTAuODc1IDY2LjEyNSA2IDYwLjE2NjcgNlpNNTQuMjQzNSA1MS42NDlDNTMuNzAxOSA1Mi45NTQ0IDUyLjg0MzMgNTQuMTA1NCA1MS43NDM3IDU0Ljk5MUM1MC42MDYyIDU1LjkxMTkgNDkuMTY1NCA1Ni42NzAyIDQ3LjM5MTUgNTcuMjExOUM0NS42MjAyIDU3Ljc2MTcgNDMuNTEzMSA1OC4wMzc5IDQxLjA3MjkgNTguMDM3OUgyMy42NTI5VjIwLjEyMTNINDIuMDc1QzQ1LjQ4MjEgMjAuMTIxMyA0OC4yMTIxIDIwLjg4NzcgNTAuMjU0MiAyMi40NTA0QzUyLjMxMjUgMjQuMDIxMiA1My4zMzYzIDI2LjM2MTIgNTMuMzM2MyAyOS41MTkyQzUzLjMzNjMgMzEuNDI4NSA1Mi44NzA0IDMzLjA2NzEgNTEuOTMzMyAzNC40MjEzQzUxLjAwMTcgMzUuNzY3MyA0OS42NTgzIDM2LjgyMDggNDcuOTI1IDM3LjU1MjFWMzcuNjc2N0M1MC4yMzc5IDM4LjE2NDIgNTIuMDI4MSAzOS4yNjEgNTMuMjA2MiA0MC45NjczQzU0LjM4NDQgNDIuNjczNSA1NC45ODgzIDQ0LjgyOTQgNTQuOTg4MyA0Ny40MzIxQzU0Ljk4ODMgNDguODg5MiA1NC43MDY3IDUwLjI3NTggNTQuMTc1OCA1MS41NzA0TDU0LjI0MzUgNTEuNjQzNVY1MS42NDlaTTQ2LjcyNTIgNDIuMzA1MkM0NS42MTQ4IDQxLjI4OTYgNDQuMDU0OCA0MC43OTQgNDIuMDM5OCA0MC43OTRIMzAuMzM0NFY1Mi42MjRINDIuMDcyM0M0NC4wNzY1IDUyLjYyNCA0NS42NDczIDUyLjEwNCA0Ni43NTc3IDUxLjA1MzFDNDcuODY4MSA1MC4wMTA0IDQ4LjQzNjkgNDguNTIzNSA0OC40MzY5IDQ2LjYxMTVDNDguNDE3OSA0NC43NDI3IDQ3Ljg2ODEgNDMuMjk2NSA0Ni43NTc3IDQyLjMwNTJINDYuNzExN0g0Ni43MjUyWk00NS4xMDAyIDM0LjY1OTZDNDYuMTcyNyAzMy43NDk2IDQ2LjY5ODEgMzIuNDQ2OSA0Ni42OTgxIDMwLjc0ODdDNDYuNjk4MSAyOC44NDIxIDQ2LjIyNDIgMjcuNDg3OSA0NS4yNjI3IDI2LjcxMzNDNDQuMzA5NCAyNS45NDE1IDQyLjkzMzUgMjUuNTQwNiA0MS4xMjQ0IDI1LjU0MDZIMzAuMjkxVjM2LjAwMjlINDEuMTI0NEM0Mi43MDMzIDM2LjAwMjkgNDQuMDQ5NCAzNS41NDI1IDQ1LjA4OTQgMzQuNjU5Nkg0NS4xMDAyWiIgZmlsbD0iIzdBM0RENyIvPgo8L3N2Zz4K" alt="Bootstrap">
+                    <h4 class="categorySubHeading">Bootstrap</h4>
+                </div>
+
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM4Ljc2MzQgNjkuNjU2NUw0IDEwLjEzNzVIMTguMjIxNEwzOC43NjM0IDQ1LjQyNzVMNTguNzc4NiAxMC4xMzc1SDczTDM4Ljc2MzQgNjkuNjU2NVoiIGZpbGw9IiM0MUI4ODMiLz4KPHBhdGggZD0iTTM4Ljc2MzQgNDUuNDI3NUwxOC4yMjE0IDEwLjEzNzVIMzIuNDQyOEwzOC43NjM0IDIxLjE5ODVMNDQuNTU3MyAxMC4xMzc1SDU4Ljc3ODdMMzguNzYzNCA0NS40Mjc1WiIgZmlsbD0iIzNBNUY4NyIvPgo8L3N2Zz4K" alt="VueJS">
+                    <h4 class="categorySubHeading">VueJS</h4>
+                </div>
+
+                <div class="category">
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNzciIGhlaWdodD0iNzgiIHZpZXdCb3g9IjAgMCA3NyA3OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjA1NDMgNTcuNTEwOEMxMy45MjAzIDU3LjUxMDggMTEuOTgwMyA1NS43NjI2IDExLjk4MDMgNTMuNjI1OUMxMS45ODAzIDUxLjQ4OTIgMTMuNzI2MyA0OS43NDEgMTYuMDU0MyA0OS43NDFDMTguMzgyMyA0OS43NDEgMjAuMTI4MyA1MS40ODkyIDIwLjEyODMgNTMuNjI1OUMyMC4xMjgzIDU1Ljc2MjYgMTguMTg4MyA1Ny41MTA4IDE2LjA1NDMgNTcuNTEwOFpNNjYuMTA2MSAzNi4zMzgxQzY1LjgzOTQgMzQuODE2NiA2NS4yNzMzIDMzLjM2MzMgNjQuNDQwNyAzMi4wNjI4QzYzLjYwODEgMzAuNzYyMyA2Mi41MjU2IDI5LjY0MDUgNjEuMjU2MSAyOC43NjI2TDYwLjI4NjEgMjcuOTg1Nkw1OS41MTAxIDI4Ljk1NjhDNTcuOTU4MSAzMC43MDUgNTcuMzc2MSAzMy44MTI5IDU3LjU3MDEgMzYuMTQzOUM1Ny43NjQxIDM3Ljg5MjEgNTguMzQ2MSAzOS42NDAzIDU5LjMxNjEgNDFMNTYuNzk0MSA0Mi4xNjU1QzU1LjA0ODEgNDIuNzQ4MiA1My4zMDIxIDQyLjk0MjQgNTEuNTU2MSA0Mi45NDI0SDEuMzEwNEwxLjExNjQgNDQuMTA3OUMwLjcyODQwMSA0Ny43OTg2IDEuMzEwNCA1MS42ODM1IDIuODYyMzkgNTUuMTc5OUwzLjYzODM5IDU2LjUzOTZWNTYuNzMzOEM4LjI5NDM2IDY0LjUwMzYgMTYuNjM2MyA2OCAyNS43NTQzIDY4QzQzLjIxNDIgNjggNTcuNTcwMSA2MC40MjQ1IDY0LjM2MDEgNDQuMTA3OUM2OC44MjIgNDQuMzAyMiA3My4yODQgNDMuMTM2NyA3NS40MTggMzguODYzM0w3NiAzNy44OTIxTDc1LjAzIDM3LjMwOTRDNzIuMjk4MiAzNS44MjQ3IDY5LjA5MjcgMzUuNDc1OCA2Ni4xMDYxIDM2LjMzODFWMzYuMzM4MVpNNDEuMDgwMiAzMy4yMzAySDMzLjUxNDJWNDAuODA1OEg0MS4wODAyVjMzLjIzMDJaTTQxLjA4MDIgMjMuNzEyMkgzMy41MTQyVjMxLjI4NzhINDEuMDgwMlYyMy43MTIyWk00MS4wODAyIDE0SDMzLjUxNDJWMjEuNTc1NUg0MS4wODAyVjE0VjE0Wk01MC4zOTIxIDMzLjIzMDJINDIuODI2MlY0MC44MDU4SDUwLjM5MjFWMzMuMjMwMlpNMjIuMjYyMyAzMy4yMzAySDE0LjY5NjNWNDAuODA1OEgyMi4yNjIzVjMzLjIzMDJWMzMuMjMwMlpNMzEuNzY4MiAzMy4yMzAySDI0LjIwMjNWNDAuODA1OEgzMS43NjgyVjMzLjIzMDJaTTEyLjk1MDMgMzMuMjMwMkg1LjM4NDM4VjQwLjgwNThIMTIuOTUwM1YzMy4yMzAyVjMzLjIzMDJaTTMxLjc2ODIgMjMuNzEyMkgyNC4yMDIzVjMxLjI4NzhIMzEuNzY4MlYyMy43MTIyWk0yMi4yNjIzIDIzLjcxMjJIMTQuNjk2M1YzMS4yODc4SDIyLjI2MjNWMjMuNzEyMlYyMy43MTIyWiIgZmlsbD0iIzM3QjFEOSIvPgo8L3N2Zz4K" alt="Docker">
+                    <h4 class="categorySubHeading">Docker</h4>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="chooseSitepointDiv">
+            <h2 class="libraryHeading">Why choose SitePoint?</h2>
+            <p class="libraryDesc">Build your tech knowledge across any subject. We give you everything you need.</p>
+            <div class="chooseSitepointOptions">
+                <div class="chooseSitepointOption">
+                    <img src="https://www.sitepoint.com/static/library-9b2719ba2dbdba3c1cf5055b34d36bd7.svg" alt="Explore a huge library" class="chooseSitepointImg">
+                    <h3 class="chooseSitepointImgTitle">Explore a Huge Library.</h3>
+                    <span class="chooseSitepointSubHeading">Get access to over 600 books, courses and videos. Learn twice<br><span style="margin-left: 25px;" ></span> fast with the ultimate text-based learning experience.</span></span>
+                </div>
+
+                <div class="chooseSitepointOption">
+                    <img src="https://www.sitepoint.com/static/fresh-3a0be289ec902a8a7fc2d5a9a4452e7c.svg" alt="Get Fresh Content Weekly" class="chooseSitepointImg">
+                    <h3 class="chooseSitepointImgTitle">Get Fresh Content<br><span style="margin-left: 75px;">Weekly</span></h3>
+                    <span class="chooseSitepointSubHeading">Were constantly, adding new content on web development,<br><span style="margin-left: 115px;">design, and technology.</span></span>
+                </div>
+
+                <div class="chooseSitepointOption">
+                    <img src="https://www.sitepoint.com/static/community-400d65c822a0d1b68cbb9989c237244e.svg" alt="Join a Vibrant Commmunity" class="chooseSitepointImg">
+                    <h3 class="chooseSitepointImgTitle">Join a Vibrant<br><span style="margin-left: 15px;">Community</span></h3>
+                    <span class="chooseSitepointSubHeading">Join 100,000 developers and designers. Discuss new tech, get <br><span style="margin-left: 30px;">fast feedback and a helping hand when you're stuck.</span></span>
+                </div>
+            </div>
+        </div>
+
+        <img src="./images/miniDesktop.JPG" alt="mini desktop" class="miniDesktop">
+
+        <div class="sitepointPremiumDiv">
+            <div class="sitepointPremiumSubDiv">
+                <div class="sitepointPremiumLDiv">
+                    <h2 class="sitepointPremiumHeading">Get unlimited access to SitePoint<br> Premium now!</h2>
+                    <ol class="sitepointPremiumList">
+                        <li class="sitepointPremiumItem">Unlimited access to our entire library of courses and books.</li>
+                        <li class="sitepointPremiumItem">Join the SitePoint community of over 100,000 developers.</li>
+                        <li class="sitepointPremiumItem">No lock ins, cancel at any time.</li>
+                    </ol>
+                </div>
+
+                <div class="sitepointPremiumRDiv">
+                    <div class="prices">
+
+                        <div class="priceDiv">
+                            <span id="price">&#36;6</span>
+                            <span style="font-size:22px; color: #898787;">/month</span>    
+                        </div>
+
+                        <div class="priceRangeDiv">
+                            <div>
+                                <input type="radio" id="annualPrice" name="priceRange" class="priceBtn" value="annual">
+                                <label for="annualPrice" style="margin-right: 10px;">Annual</label>
+                                <input type="radio" id="monthlyPrice" name="priceRange" class="priceBtn" value="monthly">
+                                <label for="monthlyPrice">Monthly</label>
+                            </div>
+                            <div id="annualBill"></div>
+                        </div>
+                        
+                    </div>
+
+                    <button type="button" class="createAccountBtn accBtn">Create Your Account</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="techTalkWrapper">
+            <div class="techTalkDiv">
+                <div class="techTalk">
+                    <span class="techTalkHeading">Don't leave home. Watch the world's<br>most inspiring Tech Talks right here.</span>
+                    <span class="techTalkDesc">Get cutting-edge techniques directly from the experts. Straight to your<br>screen from Amsterdam, San Francisco, Manchester, or Melbourne.</span>
+                    <button class="techTalkBtn fontColorBtn">Browse All Talks</button>
+                </div>
+                <div class="techTalkVideos">
+                    <div class="techTalkVideo">
+                        <a href="https://www.sitepoint.com/premium/tech-talks/dotcss-2019/writing-css-in-the-year-3019">
+                            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/b18a034c-cac5-4544-99de-d07989168e5f_medium.png" alt="Writing CSS in the year 3019" class="techTalkImg">    
+                            <h4 class="techTalkVideoTitle">Writing CSS in the year 2019</h4>
+                            <h5 class="techTalkSpeaker">with Ire Aderikun</h5>
+                        </a>
+                    </div>
+            
+                    <div class="techTalkVideo">
+                        <a href="https://www.sitepoint.com/premium/tech-talks/clarity-conference-2016/the-thing-is-design-systems-the-time-is-now">
+                            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/4d3cfc27-60e2-4e50-a1d8-b6d8505e251b_medium.png" alt="The thing is Design Systems. The time is now" class="techTalkImg">    
+                            <h4 class="techTalkVideoTitle">The thing is Design Systems. The time<br> is now</h4>
+                            <h5 class="techTalkSpeaker">with Brad Frost</h5>
+                        </a>
+                    </div>
+
+                    <div class="techTalkVideo">
+                        <a href="https://www.sitepoint.com/premium/tech-talks/dotjs-2019/develop-debug-learn">
+                            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/550d6212-6dc4-4f3e-8d1d-e23fd50cba33_medium.png" alt="Develop, Debug, Learn?" class="techTalkImg">    
+                            <h4 class="techTalkVideoTitle">Develop, Debug, Learn?</h4>
+                            <h5 class="techTalkSpeaker">with Chris Heilmann</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="partnersDiv">
+            <h3 class="categoriesHeading">Tap into the world’s leading web development publishers</h3>
+            <div class="categoriesDiv">
+                <div>
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEwIiBoZWlnaHQ9IjI4IiB2aWV3Qm94PSIwIDAgMjEwIDI4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2NC40MiAyMC41OFYyMS44NEgxNjkuMTAyVjIwLjU4SDE2OC44MjZDMTY4LjgyNiAyMC41OCAxNjguMTI3IDIwLjU4MjggMTY3Ljg2MiAyMC4zN0MxNjcuNTk4IDIwLjE1NzIgMTY3LjYzNiAxOS41ODI5IDE2Ny44MDYgMTkuMTU4MkwxNjkuMDMzIDE2LjM4TDE3NC4xOTcgMTYuMzYzNkMxNzQuNzU3IDE3Ljc2NjEgMTc1LjMgMTkuMTczNiAxNzUuODQ5IDIwLjU4SDE3NC4wNTlWMjEuODRIMTc5Ljg0M1YyMC41OEMxNzkuODQzIDIwLjU4IDE3OS4wODEgMjAuNjA5NSAxNzguNzcxIDIwLjQxOTdDMTc4LjI2NiAyMC4xMDkyIDE3Ny43MjMgMTguNTE0NyAxNzcuNzIzIDE4LjUxNDdDMTc2LjA5NyAxNC40ODg5IDE3Mi43NTEgNi40NCAxNzIuNzUxIDYuNDRIMTcxLjM3NEMxNzEuMzc0IDYuNDQgMTY3LjkwOCAxNS4yNzQ3IDE2NS45MTggMTkuNTgzNkMxNjUuOTE4IDE5LjU4MzYgMTY1LjQ1MiAyMC41OCAxNjQuNDIgMjAuNThaTTE3My42NDYgMTUuMTJMMTcxLjU4IDkuNjQzNThMMTY5LjUxNSAxNS4xMkgxNzMuNjQ2WiIgZmlsbD0iI0VFRUVFRSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTc3LjI2NjcgOS45NDAwMUM3OC40NzY3IDguMDc4OTkgODAuNDY3OSA2Ljg0MzY0IDgyLjYyMjggNi41MDE0N0M4NS40NTU3IDYuMDUxNjUgODguNDg0NCA3LjAzNTM2IDkwLjI2MTUgOS4zODAwMUM5Mi44NTQ3IDEyLjgwMTUgOTEuODgyIDE4LjI4MzMgODguNDA2NCAyMC42Njk2Qzg3LjMyOTQgMjEuNDA5MiA4Ni4xMDcgMjEuODU1MSA4NC44MjYxIDIyLjA1ODVDODMuODI3MiAyMi4yMTcyIDgyLjc3NzYgMjIuMTEwMiA4MS43OTY2IDIxLjg4NjlDODAuODI4MyAyMS42NjY0IDc5Ljg2MTQgMjEuMjYyNCA3OS4wNDI1IDIwLjY4OTFDNzUuNzQyNyAxOC4zNzg4IDc1LjEwNTMgMTMuMjY0NSA3Ny4yNjY3IDkuOTQwMDFaTTc4Ljk2MzIgMTYuMjRDNzguMzQyOCAxMi43NzM4IDc5LjM1MjkgOC4zOTM0IDgzLjMxMTQgNy43NjE0N0M4NS4zNjk0IDcuNDMyOTMgODcuMzEwNCA4LjY1NzAzIDg4LjIxNjggMTAuNUM4OS44MTc4IDEzLjc1NSA4OS4wMzE2IDE5Ljk2MDUgODQuODI2MSAyMC42NzQ0Qzg0LjI1OTkgMjAuNzcwNSA4My42MDYgMjAuNzU4NiA4My4wMzU5IDIwLjY5NTZDODAuNzkwNCAyMC40NDc0IDc5LjM0MTEgMTguMzUxMSA3OC45NjMyIDE2LjI0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zNS44MDMyIDIwLjU4VjIxLjg0SDQwLjQ4NTJWMjAuNThDNDAuNDEzMiAyMC41OCA0MC4zMzY1IDIwLjU4MjggNDAuMjU3IDIwLjU4NTZDMzkuOTMxOCAyMC41OTc1IDM5LjU2MjggMjAuNjEwOSAzOS4zMDQxIDIwLjQzNjZDMzguODM1NiAyMC4xMjEyIDM5LjAxOTkgMTkuNTk5MyAzOS4xODk1IDE5LjE3NDVDMzkuNTU4MyAxOC4yNTEyIDQwLjQxNjMgMTYuMzggNDAuNDE2MyAxNi4zOEg0NS41ODAzQzQ1Ljg4OTQgMTcuMTI4NyA0Ni4xODA4IDE3Ljg4NDcgNDYuNDcyMyAxOC42NDA5TDQ2LjQ3MzIgMTguNjQzQzQ2LjcyMjcgMTkuMjkwMiA0Ni45NzIxIDE5LjkzNzQgNDcuMjMyNyAyMC41OEM0Ni42MzYxIDIwLjU3ODYgNDYuMDM5MiAyMC41NzggNDUuNDQyNiAyMC41OFYyMS44NEg1MS4yMjYyVjIwLjU4QzUxLjIyNjIgMjAuNTggNTAuNDY1MSAyMC42MjU5IDUwLjE1NTUgMjAuNDM2MUM0OS42NDkyIDIwLjEyNTYgNDkuMTA2NSAxOC41MzExIDQ5LjEwNjUgMTguNTMxMUM0Ny40ODA1IDE0LjUwNTQgNDQuMTM0NCA2LjQ1NjQyIDQ0LjEzNDQgNi40NTY0Mkg0Mi43NTczQzQyLjc1NzMgNi40NTY0MiAzOS4yOTEzIDE1LjI5MTEgMzcuMzAxMyAxOS42QzM3LjMwMTMgMTkuNiAzNi41Njg5IDIwLjU3MDggMzUuODAzMiAyMC41OFpNNDAuODk4MyAxNS4xMkg0NS4wMjk1TDQyLjk2MzkgOS42Nkw0MC44OTgzIDE1LjEyWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05NC4zNzI0IDEwLjY0Qzk1LjUyODYgOC40MzEzIDk3LjY4OTMgNi44ODYwOSAxMDAuMTEyIDYuNTAxNDdDMTAxLjI2NCA2LjMxODQ3IDEwMi41NjMgNi4zODU3OCAxMDMuNjkyIDYuNjczMTJDMTA4LjU0NyA3LjkwOTI4IDExMC41NjggMTMuNzI4MSAxMDguMjUgMTguMDZDMTA3LjA1NiAyMC4yOTA2IDEwNC43NDkgMjEuNzA0OCAxMDIuMzE1IDIyLjA2MDFDMTAxLjI2NyAyMi4yMTMxIDEwMC4xNzMgMjIuMTA4NyA5OS4xNDc2IDIxLjg1NDNDOTguMTU4NyAyMS42MDg5IDk3LjIyNDcgMjEuMTcxMSA5Ni4zOTM1IDIwLjU3NEM5My40MTc4IDE4LjQzNiA5Mi43MDA1IDEzLjgzNDEgOTQuMzcyNCAxMC42NFpNMTAwLjggNy43NjE0N0M5NC4wNDM3IDguODQwMDUgOTQuOTg5NyAyMS45MTggMTAyLjMxNSAyMC42NzQ0QzEwNi41MzUgMTkuOTU4IDEwNy4zMSAxMy43NjE4IDEwNS43MDYgMTAuNUMxMDQuNzk5IDguNjU3MDMgMTAyLjg1OCA3LjQzMjkzIDEwMC44IDcuNzYxNDdaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTEzNS4zNjQgMjEuODIzNlYyMC41NjM2QzEzNi4xMyAyMC41NTQ0IDEzNi44NjIgMTkuNTgzNiAxMzYuODYyIDE5LjU4MzZDMTM4Ljg1MiAxNS4yNzQ3IDE0Mi4zMTggNi40NCAxNDIuMzE4IDYuNDRIMTQzLjY5NUMxNDMuNjk1IDYuNDQgMTQ3LjA0MSAxNC40ODg5IDE0OC42NjggMTguNTE0N0MxNDguNjY4IDE4LjUxNDcgMTQ5LjIxIDIwLjEwOTIgMTQ5LjcxNiAyMC40MTk3QzE1MC4wMjUgMjAuNjA5NSAxNTAuNzg3IDIwLjU2MzYgMTUwLjc4NyAyMC41NjM2VjIxLjgyMzZIMTQ1LjAwM1YyMC41NjM2QzE0NS42IDIwLjU2MTcgMTQ2LjE5NyAyMC41NjIyIDE0Ni43OTQgMjAuNTYzNkMxNDYuNTMzIDE5LjkyMDkgMTQ2LjI4NCAxOS4yNzM1IDE0Ni4wMzMgMTguNjI2M1YxOC42MjQ4VjE4LjYyNDVDMTQ1Ljc0MSAxNy44NjgzIDE0NS40NSAxNy4xMTIzIDE0NS4xNDEgMTYuMzYzNkgxMzkuOTc3QzEzOS45NzcgMTYuMzYzNiAxMzkuMTE5IDE4LjIzNDcgMTM4Ljc1IDE5LjE1ODJDMTM4LjU4MSAxOS41ODI5IDEzOC4zOTYgMjAuMTA0OCAxMzguODY0IDIwLjQyMDNDMTM5LjEyMyAyMC41OTQ2IDEzOS40OTIgMjAuNTgxMSAxMzkuODE3IDIwLjU2OTJDMTM5Ljg5NyAyMC41NjYzIDEzOS45NzQgMjAuNTYzNSAxNDAuMDQ2IDIwLjU2MzZWMjEuODIzNkgxMzUuMzY0Wk0xNDIuNTI1IDkuNjQzNThMMTQ0LjU5IDE1LjEwMzZIMTQwLjQ1OUwxNDIuNTI1IDkuNjQzNThaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYzLjIwNjQgMjAuNThWNy44Mzk5OUg2MS41NTRWNi41Nzk5OUw2NS4wNjQzIDYuNTU5ODNDNjUuMDY0MyA2LjU1OTgzIDY4LjMwMTYgNi40ODU0NSA2OS44MTYzIDYuOTE5OTRDNzIuMDc3OSA3LjU2ODcxIDczLjM4NjUgMTAuMTYzMiA3Mi4wMjM3IDEyLjMxOTlDNzEuNDc1NSAxMy4xODc1IDcwLjY2NzYgMTMuNTUyNyA2OS43OTA5IDEzLjk0OTFMNjkuNzkwMSAxMy45NDk1TDY5Ljc4NzUgMTMuOTUwN0M2OS43NTEzIDEzLjk2NzEgNjkuNzE0OSAxMy45ODM1IDY5LjY3ODYgMTRDNzAuNjU3NCAxNC4wODEzIDcxLjY5NDcgMTQuMzk4MyA3Mi4zODc0IDE1LjE0NTlDNzQuMjI0NyAxNy4xMjg5IDczLjM1MzIgMjAuMjIzMyA3MS4wNTU2IDIxLjIxQzY5LjM3MjggMjEuOTMyOCA2NS4zNDQ4IDIxLjg3ODkgNjUuMzQ0OCAyMS44Nzg5TDYxLjQxNjMgMjEuODRWMjAuNThINjMuMjA2NFpNNjUuNjg1MSAxMy40NFY3LjgzOTk5QzY1Ljg0MzkgNy44Mzk5OSA2Ni4wMDcxIDcuODM2ODQgNjYuMTcyOSA3LjgzMzY0QzY3LjEzNDkgNy44MTUwMyA2OC4xODQyIDcuNzk0NzQgNjguOTc3MSA4LjM3OTU4QzcwLjMxNzEgOS4zNjgwNCA3MC4zMzg5IDEyLjE0MTIgNjguOTc3MSAxMy4wOUM2OC4zMDE1IDEzLjU2MDcgNjUuNjg1MSAxMy40NCA2NS42ODUxIDEzLjQ0Wk02NS42ODUxIDIwLjU4VjE0LjdDNjUuNjg1MSAxNC43IDY2LjAzODMgMTQuNjk3MyA2Ni4yMTY5IDE0LjY5NDdDNjYuMjg0MSAxNC42OTUxIDY2LjM1MTYgMTQuNjk1MiA2Ni40MTkyIDE0LjY5NTRINjYuNDE5OUM2Ny40ODE5IDE0LjY5NzggNjguNjAzNSAxNC43MDAzIDY5LjUyODUgMTUuMzI1NUM3MS4wMjc0IDE2LjMzODggNzAuNzc4MSAxOS4zOTA3IDY5LjY3ODYgMjAuMDJDNjguNTc5IDIwLjY0OTMgNjYuNjQ5IDIwLjU4IDY2LjY0OSAyMC41OEg2NS42ODUxWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTExMS40MDMgNy44NDAwMlY2LjU4MDAySDExNy42VjcuODQwMDJIMTE1LjgxVjEzLjU4QzExNi41OCAxMy41MjEgMTE3LjAzOCAxMy4wNDQ5IDExNy41NDQgMTIuNTE5OUMxMTcuNjA3IDEyLjQ1MzggMTE3LjY3MiAxMi4zODY5IDExNy43MzggMTIuMzJMMTIwLjQ5MiA5LjUyMDAyQzEyMC41MSA5LjUwMTI3IDEyMC41MjkgOS40ODI2NSAxMjAuNTQ3IDkuNDY0MTRDMTIwLjU3MyA5LjQzNzU2IDEyMC41OTkgOS40MTEyIDEyMC42MjUgOS4zODQ5N0wxMjAuNjI4IDkuMzgyNTFDMTIxLjA4MiA4LjkyNTUyIDEyMS40OTEgOC41MTM1MyAxMjEuNTkzIDcuODQwMDJIMTIwLjIxNlY2LjU4MDAySDEyNS40NDlWNy44NDAwMkMxMjQuMjI5IDcuODQwOTcgMTIzLjY0NCA4LjQyODExIDEyMi44OTIgOS4xODI3M0MxMjIuNzQzIDkuMzMyMTYgMTIyLjU4OCA5LjQ4ODE3IDEyMi40MiA5LjY0NzQ5QzEyMS45OTggMTAuMDQ3MSAxMjEuNTcyIDEwLjQ0MzYgMTIxLjE0NiAxMC44NDAzTDEyMS4xNDUgMTAuODQwN0MxMjAuMjI3IDExLjY5NTIgMTE5LjMwOCAxMi41NTA2IDExOC40MjYgMTMuNDRDMTE5LjY1MSAxNC4zMjQ3IDEyMC42OTYgMTUuNjU2OCAxMjEuNjk5IDE2LjkzNTVMMTIxLjY5OSAxNi45MzU4TDEyMS42OTkgMTYuOTM2MUwxMjEuNjk5IDE2LjkzNjJDMTIyLjEyIDE3LjQ3MjQgMTIyLjUzMyAxNy45OTk0IDEyMi45NDkgMTguNDhDMTIzLjA5MSAxOC42NDMzIDEyMy4yMjMgMTguODA0IDEyMy4zNTEgMTguOTU5MkwxMjMuMzUxIDE4Ljk1OTdDMTI0LjA5MyAxOS44NTkyIDEyNC42ODYgMjAuNTc4OSAxMjYgMjAuNThWMjEuODRIMTIyLjE0NEMxMjEuOTYxIDIxLjE3MjkgMTIxLjQ3IDIwLjYzODcgMTIwLjk5NyAyMC4xMjQ2QzEyMC44NzkgMTkuOTk1NyAxMjAuNzYyIDE5Ljg2ODEgMTIwLjY1MSAxOS43NEMxMjAuMDA5IDE4Ljk5ODMgMTE5LjM3MiAxOC4yNTEzIDExOC43MzYgMTcuNTA0MkwxMTguNzM1IDE3LjUwMzVMMTE4LjczNSAxNy41MDM0QzExOC40MTYgMTcuMTI4NiAxMTguMDk2IDE2Ljc1NCAxMTcuNzc3IDE2LjM4QzExNy42ODcgMTYuMjc0NyAxMTcuNTk4IDE2LjE2NzQgMTE3LjUxMSAxNi4wNjA0TDExNy41MSAxNi4wNjAzQzExNy4wMzEgMTUuNDc3MiAxMTYuNTYgMTQuOTAzMyAxMTUuODEgMTQuN1YyMC41OEgxMTcuNlYyMS44NEgxMTEuNDAzVjIwLjU4SDExMy4zMzFWNy44NDAwMkgxMTEuNDAzWiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNTIuNDM5IDcuODQwMDJWNi41ODAwMkgxNTguMjM0QzE1OS43NTcgNi41OCAxNjEuMzMyIDYuNTggMTYyLjYzIDcuNTMwNTNDMTY0Ljg3NiA5LjE3Nzk4IDE2NC42MTggMTMuMDYzNCAxNjIuMzU0IDE0LjU2NDhDMTYwLjg0OSAxNS41NjMxIDE1OS4wOTMgMTUuNTUyNiAxNTcuMzY5IDE1LjU0MjFDMTU3LjE5NCAxNS41NDExIDE1Ny4wMTkgMTUuNTQgMTU2Ljg0NiAxNS41NFYyMC41OEgxNTkuMDQ5VjIxLjg0SDE1Mi40MzlWMjAuNThIMTU0LjM2N1Y3Ljg0MDAySDE1Mi40MzlaTTE1Ni44NDYgMTQuMjhWNy44NDAwMkMxNTcuMDggNy44NDAwMiAxNTcuMzI4IDcuODI5NDUgMTU3LjU4MyA3LjgxODYxQzE1OC41NTggNy43NzcwNiAxNTkuNjMgNy43MzEzMiAxNjAuNDIxIDguMjU5MjZDMTYyLjAxIDkuMzIxMzcgMTYxLjkwMiAxMi42NDA4IDE2MC40MTQgMTMuNzQwNUMxNTkuNTgyIDE0LjM1NDggMTU4LjQ4OSAxNC4zMjI0IDE1Ny40NzQgMTQuMjkyNUMxNTcuMjYgMTQuMjg2MiAxNTcuMDUgMTQuMjggMTU2Ljg0NiAxNC4yOFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTgxLjYzMyA2LjU4MDAxQzE4My43MjkgNi41ODAyNSAxODUuODIzIDYuNTg1MDEgMTg3LjkxOSA2LjU3OTVDMTg5LjIyNyA2LjU3NjA3IDE5MC41NTYgNi41NzI1NyAxOTEuNjg1IDcuMzUwMDFDMTk0LjU4NyA5LjM0ODUxIDE5My4xOTYgMTQuMzkyNiAxODkuNzU3IDE0LjdDMTkwLjkgMTYuMzQ5OCAxOTIuMzQ4IDE3Ljc2ODEgMTkzLjU4OCAxOS4zNDAyQzE5NC4xMzIgMjAuMDI5NSAxOTQuNTU4IDIwLjU2ODIgMTk1LjU0MSAyMC41OEMxOTUuNjAyIDIxLjAxNTMgMTk1LjU4NiAyMS40MDM4IDE5NS41NDEgMjEuODRIMTkyLjA5OEMxOTEuOTU0IDIxLjI2OTYgMTkxLjI2NyAyMC4zNTY2IDE5MS4yNjcgMjAuMzU2NkwxODguNzYzIDE2Ljg5NjJDMTg4Ljc2MyAxNi44OTYyIDE4Ny42MjMgMTUuMTIgMTg2Ljc5NyAxNS4xMkMxODUuOTcxIDE1LjEyIDE4Ni4wMzkgMTUuMTIgMTg2LjAzOSAxNS4xMlYyMC41OEgxODcuOTY3VjIxLjg0SDE4MS42MzNDMTgxLjYzMyAyMS44NCAxODEuNjM0IDIxIDE4MS42MzMgMjAuNThIMTgzLjU2MVY3Ljg0MDAxQzE4Mi45MTggNy44NDAwMSAxODEuNjMzIDcuODQwMDEgMTgxLjYzMyA3Ljg0MDAxQzE4MS42MyA3LjQyIDE4MS42MzMgNy4wMDAwMyAxODEuNjMzIDYuNTgwMDFaTTE4Ni4wMzkgMTQuMTRWNy44NDAwMUMxODYuMDM5IDcuODQwMDEgMTg4Ljc5MyA3Ljc1NjczIDE4OS42MiA4LjMzMDAxQzE5MS4yNDIgOS40NTU1NiAxOTAuOTQgMTIuMzcwOSAxODkuNDc2IDEzLjQ5MDhDMTg4LjU4MSAxNC4xNzU2IDE4Ni41MTMgMTQuMTQ0OCAxODYuNTEzIDE0LjE0NDhMMTg2LjAzOSAxNC4xNFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xOTYuNzggNi41ODAwMkgyMDkuNzI1QzIwOS44NTEgNy42MDMwMSAyMTAgOC42MjY1OCAyMTAgOS42NjAwMkMyMDkuNjEgOS42NTk5OCAyMDkuMDQ4IDkuNzU1OTQgMjA4LjcxMSA5LjUxNjEyQzIwOC4xOTMgOS4xNDg3OCAyMDguMTc1IDguMzMwNDcgMjA3LjYxNCA3Ljk4MzkxQzIwNi44ODUgNy41MzQ0IDIwNC40OTIgNy44NDAwMiAyMDQuNDkyIDcuODQwMDJWMjAuNThIMjA2LjQyVjIxLjg0SDIwMC4wODVWMjAuNThIMjAyLjAxM1Y3Ljg0MDAyQzIwMi4wMTMgNy44NDAwMiAxOTkuNjIgNy41MzcwNiAxOTguODc1IDcuOTgzOTFDMTk4LjMwOSA4LjMyMzczIDE5OC4zMTMgOS4xNDc5NyAxOTcuNzk0IDkuNTE2MTJDMTk3LjQwNCA5Ljc5Mjc0IDE5Ni44MTcgOS42NjAwMiAxOTYuMzY3IDkuNjYwMDJDMTk2LjQ5NSA4LjYzMzA4IDE5Ni41OTQgNy41OTgxMyAxOTYuNzggNi41ODAwMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTY0LjQyIDIwLjU4VjIxLjg0SDE2OS4xMDJWMjAuNThIMTY4LjgyNkMxNjguODI2IDIwLjU4IDE2OC4xMjcgMjAuNTgyOCAxNjcuODYyIDIwLjM3QzE2Ny41OTggMjAuMTU3MiAxNjcuNjM2IDE5LjU4MjkgMTY3LjgwNiAxOS4xNTgyTDE2OS4wMzMgMTYuMzhMMTc0LjE5NyAxNi4zNjM2QzE3NC43NTcgMTcuNzY2MSAxNzUuMyAxOS4xNzM2IDE3NS44NDkgMjAuNThIMTc0LjA1OVYyMS44NEgxNzkuODQzVjIwLjU4QzE3OS44NDMgMjAuNTggMTc5LjA4MSAyMC42MDk1IDE3OC43NzEgMjAuNDE5N0MxNzguMjY2IDIwLjEwOTIgMTc3LjcyMyAxOC41MTQ3IDE3Ny43MjMgMTguNTE0N0MxNzYuMDk3IDE0LjQ4ODkgMTcyLjc1MSA2LjQ0IDE3Mi43NTEgNi40NEgxNzEuMzc0QzE3MS4zNzQgNi40NCAxNjcuOTA4IDE1LjI3NDcgMTY1LjkxOCAxOS41ODM2QzE2NS45MTggMTkuNTgzNiAxNjUuNDUyIDIwLjU4IDE2NC40MiAyMC41OFpNMTczLjY0NiAxNS4xMkwxNzEuNTggOS42NDM1OEwxNjkuNTE1IDE1LjEySDE3My42NDZaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTMuMTUwOCAyOEMyMC40MTM4IDI4IDI2LjMwMTYgMjIuMDE0MSAyNi4zMDE2IDE0LjYzQzI2LjMwMTYgNy4yNDU5NiAyMC40MTM4IDEuMjYwMDEgMTMuMTUwOCAxLjI2MDAxQzUuODg3ODIgMS4yNjAwMSAwIDcuMjQ1OTYgMCAxNC42M0MwIDIyLjAxNDEgNS44ODc4MiAyOCAxMy4xNTA4IDI4WiIgZmlsbD0iI0U4RTREMiIvPgo8cGF0aCBkPSJNMTQuMzIxNCAxMi44OEMxNS4wNTI2IDEyLjYwOTUgMTUuNzM4OSAxMi4xOTYyIDE2LjM4NjkgMTEuNzU5NUMyMC4yNjQ3IDkuMTQ2MTQgMjAuMjEyOCA0LjE3NTA3IDE5LjQxNjQgMEMxNy40ODYgMC45MTUyMjIgMTUuNzc5OCA0LjA4MDMzIDE1LjA4NDggNi4wMkMxNC4yOTg2IDguMjE0MjMgMTQuMzIxNCAxMC41ODAzIDE0LjMyMTQgMTIuODhaIiBmaWxsPSIjOTk4RDUwIi8+CjxwYXRoIGQ9Ik0xMC4xOTAyIDE2Ljk0QzExLjAyOTMgMTYuMzM5MSAxMS44NzY5IDE1LjUwMzkgMTIuMzQxNCAxNC41NkMxMy4yNjgyIDEyLjY3NzEgMTIuNzA5NiAxMC4yNjM3IDEyLjY2ODkgOC4yNjAwMUMxMS45NzAxIDguNjIzMjQgMTEuNzE5NyA5LjMwNTExIDExLjI2MTcgMTAuMDhDOS44ODczNCAxMi40MDUgMTAuMTkwMiAxNC41MzUgMTAuMTkwMiAxNi45NFoiIGZpbGw9IiM5OThENTAiLz4KPHBhdGggZD0iTTExLjQyOTQgMTcuNjRDMTMuNDE3NyAxNy43OTk0IDE1LjUxNzUgMTcuOTgxIDE3LjQ4ODUgMTcuNTQ2NUMyMC4xNDQgMTYuOTYwOCAyMi41NDU4IDE0LjkwMiAyMy45NjA2IDEyLjZDMTkuOTYxNiAxMi40MjU0IDE1LjQ1NjUgMTIuNDA3OCAxMi42MzQ5IDE1LjgyMDFDMTIuMTY0NiAxNi4zODg4IDExLjY5MzQgMTYuOTQyMiAxMS40Mjk0IDE3LjY0WiIgZmlsbD0iIzk5OEQ1MCIvPgo8cGF0aCBkPSJNNy4wMjI5NSAxOC45QzkuNTc2MjQgMTcuOTE1OCA5LjIzMzExIDE1LjAxMDkgOC45NTA4MSAxMi43NEM3LjA1ODkyIDEzLjczNjkgNy4wMjI5NSAxNy4wNDIzIDcuMDIyOTUgMTguOVoiIGZpbGw9IiM5OThENTAiLz4KPHBhdGggZD0iTTcuNDM2MDQgMTkuODhDOC44NTgyMiAyMC40ODIgMTAuMTYzNSAyMS4yMTk5IDExLjcwNDkgMjEuNDk1QzEzLjQ2MDQgMjEuODA4NCAxNS4zNTE2IDIxLjQ3OTkgMTcuMDc1NCAyMS4xNEMxNS41MjUgMTkuNTM3NiAxMi41NjYxIDE4LjIwMzkgMTAuMzI3OCAxOC4zNTI2QzkuMjg3NDQgMTguNDIxOCA3LjkzNzQ3IDE4Ljg5NjQgNy40MzYwNCAxOS44OFoiIGZpbGw9IiM5OThENTAiLz4KPHBhdGggZD0iTTMuODU1NzEgMTkuNkM0LjQ1NjcgMjEuNjc2MyA2Ljg0MDM2IDIyLjYzODYgOC44MTMwOSAyMi42OEM4LjE1MzY2IDIwLjU3OTcgNS45NTkyOSAxOS4yMDMyIDMuODU1NzEgMTkuNloiIGZpbGw9IiM5OThENTAiLz4KPC9zdmc+Cg==" alt="A Book Apart" loading="lazy">
+                </div>
+                
+                <div>
+                   <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTA2IiBoZWlnaHQ9IjIzIiB2aWV3Qm94PSIwIDAgMTA2IDIzIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMjkuODk0MSAyMEgzMC4wMTQ0TDM1LjkzMDUgNS41NjY3NEMzNi41MDc4IDQuMTc3NjggMzcuMDM2OSAzLjQ5NDI3IDM3LjU2NjUgMy4xODk0MlYzLjA0Nzg3SDM0LjAwNjRWMy4xODk0MkMzNC43NTI1IDMuNTg4OTIgMzQuOTIwNSA0LjY3MjY3IDM0LjQxNTIgNS45MTk1NkwzMC43ODM2IDE0LjgxOTlMMjUuODUyMSAzSDI1LjczMzNMMjAuNTM3NyAxNC43OTY5TDE2LjgwOTIgNS41MTkyMUMxNi4zNzY4IDQuNDEzMTEgMTYuNDk3MiAzLjU4ODkyIDE3LjE5NCAzLjE4OTQ1VjMuMDQ3OUgxMlYzLjE4OTQ1QzEyLjU1MzMgMy40NzE2MiAxMi45NjE1IDQuMDU5MjkgMTMuNDY2OCA1LjI2MDgzTDE5LjU3NjQgMjBIMTkuNjk1N0wyNC44NDI2IDguMDYyMDlMMjkuODk0MSAyMFpNNjguMjMxMiAxMS43MzYxVjcuMDUwNThINzMuMjMzOUM3NS41MTg0IDcuMDUwNTggNzYuMzg0NCA3LjQwMzM2IDc3LjIwMjUgOC41MzM2Nkw3Ny4zNDY3IDguNDg2NDZMNzcuMDU3MyA1Ljg5NjI0SDY0LjU1MTJMNjQuNTI3MSA2LjAxNDY2QzY1LjI3MzYgNi40NjE3IDY1LjQ5MDEgNy4xMjA1OCA2NS40OTAxIDguMDYyMDNWMTcuMzM5NkM2NS40OTAxIDE4LjMwNiA2NS4yNzM2IDE4Ljk0MDYgNjQuNTI3MSAxOS4zODc2TDY0LjU1MTIgMTkuNTI5MUg3Ny43MDczTDc4LjE4OSAxNi43NTE1TDc4LjA2NzEgMTYuNzA0MkM3Ny4yMjU3IDE3LjgxMTIgNzYuMjE2NSAxOC4zNzU1IDczLjk1NTMgMTguMzc1NUg2OC4yMzEzVjEyLjg0Mkg3Mi4wNTY2QzczLjY5MDQgMTIuODQyIDc0LjUwODQgMTMuMTAwOSA3NC45NDE1IDEzLjc4NDJINzUuMTA5M1YxMC44MTcyTDc0Ljk0MTUgMTAuNzkzOUM3NC41MDg0IDExLjQ3NjUgNzMuNjkwNCAxMS43MzU5IDcyLjA1NjYgMTEuNzM1OUw2OC4yMzEyIDExLjczNjFaTTg0Ljk5NDIgMTkuMzg3N0w4NS4wMTc2IDE5LjUyOTJIODkuODI5M1YxOS4zODc3Qzg5LjAzNDYgMTguOTQwNiA4OC43OTQ3IDE4LjIzMzMgODguNzk0NyAxNy4xMDM1VjEzLjkwMThMOTMuMDI3NiA3Ljk5MjAxQzkzLjc5ODEgNi45MDkwNCA5NC40NDY0IDYuMjQ5NDMgOTUgNi4wMTQ2OVY1Ljg5NjI4SDkxLjI0NzhWNi4wMTQ2OUM5MS45MjEyIDYuMzkxNCA5Mi4wMTY3IDcuMzA5NiA5MS4yOTYzIDguMzIwNzhMODguMTkzNyAxMi43MDE1TDg0Ljc3OCA3Ljc4MDA3Qzg0LjI0ODQgNy4wMjYxMSA4NC4zNDQ3IDYuMzQzNDEgODQuOTcxMSA2LjAxNDY5VjUuODk2MjhINzkuNzAyNVY2LjAxNDY5QzgwLjMyOSA2LjI3MjgzIDgwLjcxNCA2LjYyNTU4IDgxLjM4NjQgNy41Njc4TDg2LjA1MjQgMTQuMDkwOVYxNy4xMDM1Qzg2LjA1MjQgMTguMjMzMiA4NS43ODgxIDE4Ljk0MDYgODQuOTk0MiAxOS4zODc3Wk02MS43ODU2IDE5LjUyOTJMNjIuNDU4NiAxNi42NTcxTDYyLjMxNDQgMTYuNjA5NkM2MS40OTYxIDE3Ljg1NzUgNjAuMjQ1NiAxOC4zNzU1IDU4LjM5MzEgMTguMzc1NUg1Mi45NTg0VjguMjk4ODRDNTIuOTU4NCA3LjE0Mzg2IDUzLjI0NzMgNi40ODUxIDU0LjA2NDMgNi4wMTQ2OVY1Ljg5NjI4SDQ5LjI3OTRMNDkuMjU0OSA2LjAxNDY5QzUwLjAwMDUgNi40NjE3MyA1MC4yMTYzIDcuMTIwNjEgNTAuMjE2MyA4LjA2MjA2VjE3LjMzOTdDNTAuMjE2MyAxOC4zMDYgNTAuMDAwNSAxOC45NDA2IDQ5LjI1NDkgMTkuMzg3N0w0OS4yNzk0IDE5LjUyOTJINjEuNzg1NlpNNDAuNTk2MiAxNy4yMjEyQzQwLjU5NjIgMTguMjgxOSA0MC4zNTU3IDE4Ljk2NDUgMzkuNTg1NyAxOS4zODc2VjE5LjUyOTFINDQuMzQ4N1YxOS4zODc2QzQzLjU3OSAxOC45NjQ1IDQzLjMzOTIgMTguMjgxOSA0My4zMzkyIDE3LjIyMTJWOC4xNzk3NUM0My4zMzkyIDcuMTQzODMgNDMuNTc5MSA2LjQ2MTcgNDQuMzQ4NyA2LjAxNDY2VjUuODk2MjRIMzkuNTg1N1Y2LjAxNDY2QzQwLjM1NTggNi40NjE3IDQwLjU5NjIgNy4xNDM4MyA0MC41OTYyIDguMTc5NzVWMTcuMjIxMloiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="Wiley" loading="lazy">
+                </div>
+                
+                <div>
+                    <img class="categoryImage" src="https://www.sitepoint.com/static/sitepoint-light-9e6fb052549b955cdc6fde13a4d37dbe.svg" alt="SitePoint" loading="lazy">
+                </div>
+                
+                <div>
+                    <img class="categoryImage" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTU4IiBoZWlnaHQ9IjM3IiB2aWV3Qm94PSIwIDAgMTU4IDM3IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTQwLjExNSAxNi45OTY5QzE0MC4xMDUgMTUuMzc0MyAxNDAuNzEyIDEzLjc5NTggMTQxLjg0MSAxMi41MTUxQzE0Mi45NjkgMTEuMjM0NCAxNDQuNTUyIDEwLjMyNiAxNDYuMzM2IDkuOTM1ODZDMTQ4LjExOSA5LjU0NTc2IDE1MCA5LjY5NjY5IDE1MS42NzQgMTAuMzY0NEMxNTMuMzQ5IDExLjAzMiAxNTQuNzIxIDEyLjE3NzYgMTU1LjU3IDEzLjYxNjlMMTUyLjU2MSAxNC40ODAyQzE1MS45NjQgMTMuNjk3NiAxNTEuMTAzIDEzLjEwMDQgMTUwLjEwMSAxMi43NzMyQzE0OS4wOTggMTIuNDQ1OSAxNDguMDA1IDEyLjQwNTEgMTQ2Ljk3NSAxMi42NTY0QzE0NS45NDUgMTIuOTA3NiAxNDUuMDMgMTMuNDM4NCAxNDQuMzYxIDE0LjE3MzZDMTQzLjY5MSAxNC45MDg4IDE0My4yOTkgMTUuODExMyAxNDMuMjQxIDE2Ljc1MzZDMTQzLjE4NCAxNy42OTU5IDE0My40NjMgMTguNjMwMyAxNDQuMDQgMTkuNDI0OEMxNDQuNjE2IDIwLjIxOTQgMTQ1LjQ2MSAyMC44MzM5IDE0Ni40NTUgMjEuMTgxNUMxNDcuNDQ4IDIxLjUyOTIgMTQ4LjU0IDIxLjU5MjQgMTQ5LjU3NyAyMS4zNjIyQzE1MC42MTMgMjEuMTMyIDE1MS41NDEgMjAuNjIgMTUyLjIzIDE5Ljg5ODdMMTUwLjQ0IDIwLjE1NzdMMTQ4LjI2NyAxOC4yMzg2TDE1Ny42MyAxNi45MTA1TDE1Ni4xMjYgMjUuMTcxMkwxNTMuODkyIDIzLjIwNTZMMTU0LjEwMiAyMi4wNzAxQzE1Mi45NTkgMjMuMDgyOSAxNTEuNSAyMy43NzMyIDE0OS45MTIgMjQuMDUzOUMxNDguMzIzIDI0LjMzNDYgMTQ2LjY3NyAyNC4xOTMxIDE0NS4xNzkgMjMuNjQ3MkMxNDMuNjgyIDIzLjEwMTIgMTQyLjQwMiAyMi4xNzU1IDE0MS41IDIwLjk4N0MxNDAuNTk5IDE5Ljc5ODYgMTQwLjExNyAxOC40MDA3IDE0MC4xMTUgMTYuOTcwM1YxNi45OTY5Wk00NS40NzM1IDE5LjE0ODRDNDUuNDM1MSAxOS45MjY0IDQ1LjYxODcgMjAuNzAwNCA0Ni4wMDc0IDIxLjM5OTRDNDYuMzY1MyAyMi4wMTUzIDQ2Ljg4MDIgMjIuNTQ5NCA0Ny41MTE1IDIyLjk1OTlDNDguMTcxNSAyMy4zODMzIDQ4LjkxNjcgMjMuNjkyIDQ5LjcwNzQgMjMuODY5NkM1MC41NDYxIDI0LjA2ODUgNTEuNDEwOCAyNC4xNjkgNTIuMjc5MyAyNC4xNjg1QzUzLjI0NzcgMjQuMTg0NSA1NC4yMTM1IDI0LjA3MjYgNTUuMTQ0NSAyMy44MzY1QzU1LjkwMDIgMjMuNjQ4IDU2LjYwNzUgMjMuMzMyNCA1Ny4yMjc1IDIyLjkwNjhDNTcuNzczNCAyMi41MjEzIDU4LjIwODkgMjIuMDI3NiA1OC40OTg1IDIxLjQ2NTlDNTguNzg1NSAyMC45IDU4LjkzMTYgMjAuMjg2MyA1OC45MjcxIDE5LjY2NjNDNTguOTU4OSAxOC45ODI0IDU4Ljc1NDMgMTguMzA2MSA1OC4zNDA2IDE3LjcyNzNDNTcuOTk3OCAxNy4yNDA2IDU3LjU0MTQgMTYuODI0MSA1Ny4wMDIgMTYuNTA1NUM1Ni41MTU4IDE2LjIxMTkgNTUuOTgwMyAxNS45ODc4IDU1LjQxNTIgMTUuODQxNEM1NS4wMTAyIDE1LjcyMyA1NC41OTg2IDE1LjYyMzMgNTQuMTgxOSAxNS41NDI2TDUxLjczNzggMTQuOTkxNEM1MS4yNDIzIDE0Ljg4NjIgNTAuNzU2OSAxNC43NDYzIDUwLjI4NjUgMTQuNTczMUM1MC4wMTA3IDE0LjQ3NTYgNDkuNzcxMyAxNC4zMTI0IDQ5LjU5NDUgMTQuMTAxNkM0OS40NjY0IDEzLjg5OTIgNDkuNDAzOSAxMy42Njk0IDQ5LjQxNDEgMTMuNDM3NkM0OS40MDMgMTMuMTczMiA0OS40ODE1IDEyLjkxMTkgNDkuNjM5NyAxMi42ODcyQzQ5Ljc4NzYgMTIuNDkzMyA0OS45NzY1IDEyLjMyNjQgNTAuMTk2MiAxMi4xOTU4QzUwLjQyNzMgMTIuMDY2MSA1MC42ODE1IDExLjk3MTggNTAuOTQ4MiAxMS45MTdDNTEuMjI3NiAxMS44NjQ0IDUxLjUxMjQgMTEuODM3OCA1MS43OTggMTEuODM3M0M1Mi4yMDYxIDExLjgyNTcgNTIuNjE0NSAxMS44NTI0IDUzLjAxNjMgMTEuOTE3QzUzLjM2NTcgMTEuOTc0NiA1My42OTk4IDEyLjA4OTUgNTQuMDAxNCAxMi4yNTU2QzU0LjI4OTUgMTIuNDE4NCA1NC41MjExIDEyLjY0ODEgNTQuNjcwNyAxMi45MTk3QzU0Ljg1NjUgMTMuMjI1MiA1NC45NjQyIDEzLjU2MjkgNTQuOTg2NiAxMy45MDkxSDU4LjM4NTZDNTguNDEyNSAxMy4xODczIDU4LjIyODYgMTIuNDcxNiA1Ny44NTE3IDExLjgzMDZDNTcuNTIwOSAxMS4yNjMgNTcuMDM4MSAxMC43NzUyIDU2LjQ0NTUgMTAuNDA5NkM1NS44MjM1IDEwLjAzMDIgNTUuMTIzNSA5Ljc2MTgzIDU0LjM4NSA5LjYxOTM0QzUzLjYwMzIgOS40NDQ3NSA1Mi43OTk4IDkuMzU3NzQgNTEuOTkzNSA5LjM2MDQxQzUxLjI2NjcgOS4zNjE1MSA1MC41NDM0IDkuNDQ4NTkgNDkuODQyNyA5LjYxOTM0QzQ5LjE1MyA5Ljc3OTkzIDQ4LjUwMTIgMTAuMDQ3NSA0Ny45MTc2IDEwLjQwOTZDNDcuMzUyMiAxMC43NTk5IDQ2Ljg3NzggMTEuMjEyNyA0Ni41MjYzIDExLjczNzZDNDYuMTcwMiAxMi4zMTMgNDUuOTkzNyAxMi45NjE1IDQ2LjAxNSAxMy42MTY5QzQ1Ljk5NzUgMTQuMTkxIDQ2LjEzNjggMTQuNzYwNCA0Ni40MjExIDE1LjI3N0M0Ni42OTM4IDE1LjcxNjggNDcuMDY3OCAxNi4xMDEzIDQ3LjUxOSAxNi40MDU5QzQ3Ljk3NzcgMTYuNzE3NCA0OC40ODQxIDE2Ljk3IDQ5LjAyMyAxNy4xNTYyQzQ5LjU5MzkgMTcuMzQ0NSA1MC4xNzY0IDE3LjUwNDIgNTAuNzY3NyAxNy42MzQzQzUxLjM0NjggMTcuNzgwNCA1MS45MjU4IDE3LjkxMzMgNTIuNDg5OCAxOC4wMjYxQzUzLjAwMTYgMTguMTM0NCA1My41MDQyIDE4LjI3NDIgNTMuOTkzOSAxOC40NDQ1QzU0LjM5MzEgMTguNTc2NiA1NC43NTg3IDE4Ljc3NzUgNTUuMDY5MyAxOS4wMzU0QzU1LjIxMTIgMTkuMTU0NyA1NS4zMjI4IDE5LjI5OTQgNTUuMzk2NyAxOS40NTk2QzU1LjQ3MDYgMTkuNjE5OSA1NS41MDUxIDE5Ljc5MjIgNTUuNDk3OSAxOS45NjUxQzU1LjUxMDEgMjAuMjg0OCA1NS4zOTg4IDIwLjU5ODcgNTUuMTgyMSAyMC44NTQ5QzU0Ljk3NzYgMjEuMDc3OCA1NC43MjExIDIxLjI1ODkgNTQuNDMgMjEuMzg2MUM1NC4xMTExIDIxLjUyMTQgNTMuNzcxNyAyMS42MTU0IDUzLjQyMjMgMjEuNjY1MUM1My4wODgyIDIxLjcwMzQgNTIuNzUxNiAyMS43MjM0IDUyLjQxNDcgMjEuNzI0OEM1MS45NTI4IDIxLjczOCA1MS40OTA3IDIxLjcwMjMgNTEuMDM4NCAyMS42MTg2QzUwLjYzMjQgMjEuNTIzMyA1MC4yNDY0IDIxLjM3MDggNDkuODk1MyAyMS4xNjdDNDkuNTc5MSAyMC45NTAyIDQ5LjMyMjEgMjAuNjczMyA0OS4xNDM0IDIwLjM1NjlDNDguOTM3MiAxOS45ODMgNDguODM2NSAxOS41NzA2IDQ4Ljg1MDEgMTkuMTU1TDQ1LjQ3MzUgMTkuMTQ4NFpNODQuNDg4MiAxMy4xNzJMODYuNTAzNSAxOC4zNTE1SDgyLjM2NzhMODQuNDg4MiAxMy4xNzJaTTc2LjcyNzcgMjMuNjYzOFY5LjcyNTYySDcxLjc3OUw2OC4xOTk4IDE5LjQyNzJMNjQuNDM5NSA5LjcyNTYySDU5LjUyMTJWMjMuODI5OEg2Mi44MDc2TDYyLjg1MjYgMTMuOTA5MUw2Ni43NzA4IDIzLjgwOTlINjkuNDc4MUw3My40NDEgMTMuODA5NVYyMy44Mjk4SDgwLjIwOTRMODEuNDY0OSAyMC42ODg5SDg3LjQzNjJMODguNjM5MSAyMy44Mjk4SDkyLjI4NjdMODYuMzAxIDkuNzI1NjJIODIuNjk4M0w3Ni43Mjc3IDIzLjY2MzhaTTkxLjE2NiAxOS4xNTVDOTEuMTMwMSAxOS45MzM2IDkxLjMxNjEgMjAuNzA3NyA5MS43MDc0IDIxLjQwNjFDOTIuMDY2MiAyMi4wMjE2IDkyLjU4MTMgMjIuNTU1NiA5My4yMTE4IDIyLjk2NjZDOTMuODcyNyAyMy4zODc1IDk0LjYxNzMgMjMuNjkzOSA5NS40MDc1IDIzLjg2OTZDOTYuMjQ2MSAyNC4wNjg2IDk3LjExMSAyNC4xNjkgOTcuOTc5NCAyNC4xNjg1Qzk4Ljk0OCAyNC4xODM4IDk5LjkxMzggMjQuMDcxOSAxMDAuODQ1IDIzLjgzNjVDMTAxLjYwMSAyMy42NDggMTAyLjMwOCAyMy4zMzI0IDEwMi45MjggMjIuOTA2OEMxMDMuNDc3IDIyLjUyMjYgMTAzLjkxNSAyMi4wMjg3IDEwNC4yMDYgMjEuNDY1OUMxMDQuNDkyIDIwLjg5OTcgMTA0LjYzNSAyMC4yODU5IDEwNC42MjcgMTkuNjY2M0MxMDQuNjYyIDE4Ljk4MyAxMDQuNDYgMTguMzA2NSAxMDQuMDQ4IDE3LjcyNzNDMTAzLjcwMyAxNy4yNDAyIDEwMy4yNDQgMTYuODIzNyAxMDIuNzAyIDE2LjUwNTVDMTAyLjIxNiAxNi4yMTE5IDEwMS42ODEgMTUuOTg3OCAxMDEuMTE1IDE1Ljg0MTRDMTAwLjcxMSAxNS43MjI2IDEwMC4yOTkgMTUuNjIyOCA5OS44ODIgMTUuNTQyNkw5Ny40NDU2IDE0Ljk5MTRDOTYuOTQ3MiAxNC44Nzk3IDk2LjQ1OTEgMTQuNzMzMiA5NS45ODY5IDE0LjU1MzJDOTUuNzExIDE0LjQ1NTQgOTUuNDcxOCAxNC4yOTIyIDk1LjI5NDggMTQuMDgxN0M5NS4xNjY5IDEzLjg3OTIgOTUuMTA0IDEzLjY0OTUgOTUuMTE0NCAxMy40MTc2Qzk1LjEwMzMgMTMuMTUzMyA5NS4xODE0IDEyLjg5MiA5NS4zMzk4IDEyLjY2NzNDOTUuNDg3IDEyLjQ3MjkgOTUuNjc2NSAxMi4zMDYgOTUuODk2MyAxMi4xNzZDOTYuMTI3MiAxMi4wNDU5IDk2LjM4MTYgMTEuOTUxNyA5Ni42NDg1IDExLjg5N0M5Ni45Mjc4IDExLjg0NDUgOTcuMjEyNyAxMS44MTc4IDk3LjQ5ODIgMTEuODE3M0M5Ny44OTcxIDExLjgxNDIgOTguMjk1MyAxMS44NDc2IDk4LjY4NjYgMTEuOTE3Qzk5LjAzNTggMTEuOTc0NiA5OS4zNjk3IDEyLjA4OTUgOTkuNjcxOCAxMi4yNTU2Qzk5Ljk1OTQgMTIuNDE4OCAxMDAuMTkgMTIuNjQ4NSAxMDAuMzQxIDEyLjkxOTdDMTAwLjUzIDEzLjIyNDYgMTAwLjY0MyAxMy41NjIxIDEwMC42NzIgMTMuOTA5MUgxMDQuMDcxQzEwNC4wOTYgMTMuMTg2NyAxMDMuOTA5IDEyLjQ3MDggMTAzLjUzIDExLjgzMDZDMTAzLjE5OSAxMS4yNjI1IDEwMi43MTcgMTAuNzc0NiAxMDIuMTIzIDEwLjQwOTZDMTAxLjUwMSAxMC4wMjk5IDEwMC44MDEgOS43NjE0OSAxMDAuMDYyIDkuNjE5MzRDOTkuMjc3MSA5LjQ1MzA1IDk4LjQ3MDkgOS4zNzQ5NSA5Ny42NjM0IDkuMzg2OTVDOTYuOTM2OCA5LjM4ODA1IDk2LjIxMzYgOS40NzUyIDk1LjUxMjYgOS42NDU5NEM5NC44MjMzIDkuODA2NDcgOTQuMTcxNCAxMC4wNzQgOTMuNTg3OSAxMC40MzYyQzkzLjAyNDQgMTAuNzg2NyA5Mi41NTI5IDExLjIzOTUgOTIuMjAzOCAxMS43NjQzQzkxLjg0NzcgMTIuMzM5NiA5MS42NzE0IDEyLjk4ODEgOTEuNjkyOSAxMy42NDM1QzkxLjY3NDkgMTQuMjE3NiA5MS44MTM4IDE0Ljc4NzIgOTIuMDk4NyAxNS4zMDM2QzkyLjM3MTggMTUuNzQzMiA5Mi43NDU4IDE2LjEyNzcgOTMuMTk2NiAxNi40MzI0QzkzLjY1NjMgMTYuNzQzMSA5NC4xNjI0IDE2Ljk5NTYgOTQuNzAwOSAxNy4xODI4Qzk1LjI3MiAxNy4zNzA2IDk1Ljg1NDEgMTcuNTMwMiA5Ni40NDUzIDE3LjY2MDlDOTcuMDI0NiAxNy44MDcgOTcuNjAzMyAxNy45Mzk4IDk4LjE2NzQgMTguMDUyN0M5OC42NzkgMTguMTYwOCA5OS4xODE2IDE4LjMwMDYgOTkuNjcxOCAxOC40NzFDMTAwLjA3MSAxOC42MDI5IDEwMC40MzYgMTguODAzOCAxMDAuNzQ3IDE5LjA2MkMxMDAuODg3IDE5LjE4MjIgMTAwLjk5NyAxOS4zMjcxIDEwMS4wNyAxOS40ODcyQzEwMS4xNDIgMTkuNjQ3NCAxMDEuMTc2IDE5LjgxOTMgMTAxLjE2OCAxOS45OTE3QzEwMS4xNzkgMjAuMzExMiAxMDEuMDY4IDIwLjYyNDcgMTAwLjg1MiAyMC44ODE1QzEwMC42NDggMjEuMTA0MyAxMDAuMzkyIDIxLjI4NTUgMTAwLjEgMjEuNDEyN0M5OS43ODEgMjEuNTQ3OCA5OS40NDE2IDIxLjY0MTggOTkuMDkyNSAyMS42OTE2Qzk4Ljc1ODUgMjEuNzI5OSA5OC40MjE4IDIxLjc0OTkgOTguMDg1MSAyMS43NTE0Qzk3LjYzMzcgMjEuNzUxMSA5Ny4xODUgMjEuNzA0MyA5Ni43NDYgMjEuNjExOUM5Ni4zNDAyIDIxLjUxNjggOTUuOTU0NCAyMS4zNjQzIDk1LjYwMzIgMjEuMTYwNEM5NS4yODcyIDIwLjk0MjkgOTUuMDMwNyAyMC42NjYyIDk0Ljg1MSAyMC4zNTAzQzk0LjY0NSAxOS45NzYzIDk0LjU0NDcgMTkuNTY0IDk0LjU1NzggMTkuMTQ4NEw5MS4xNjYgMTkuMTU1Wk0xMDUuMjE0IDIzLjgwMzNIMTA4LjcyNlYxNy43NDcySDExNS4xOTNWMjMuODI5OEgxMTguNzJWOS43MjU2MkgxMTUuMjA4VjE1LjEzNzZIMTA4Ljc0MVY5LjcyNTYySDEwNS4xODRMMTA1LjIxNCAyMy44MDMzWk0xMjAuMzA3IDIzLjgwMzNIMTIzLjgxOVY5LjcyNTYySDEyMC4zMDdWMjMuODAzM1pNMTI1LjQyOCAyMy44MDMzSDEyOC43MTRMMTI4Ljc2IDE0LjM2MDZMMTM1LjQwNyAyMy44MDMzSDEzOC45MlY5LjcyNTYySDEzNS42MjZMMTM1LjU4OCAxOS4yMjE0TDEyOC45MjUgOS43MjU2MkgxMjUuNDM2TDEyNS40MjggMjMuODAzM1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yMC42MzQyIDE5Ljk1ODVDMTkuMDI2MiAxOC45MDEzIDE3LjI1MyAxOC4wNTU4IDE1LjM3MDEgMTcuNDQ4NEMxMy45NTI4IDE2Ljk0MjcgMTIuNjAxNSAxNi4zMDM3IDExLjMzOTIgMTUuNTQyNkM4LjMzMTE0IDEzLjY5MjEgNi44MjcwOSAxMS4zOTY4IDYuODI3MDkgOC42NTY1MkM2Ljc1MjA4IDcuMDA2MTQgNy4zMzQ4OSA1LjM4NDc3IDguNDc0MDQgNC4wNzQ2NEM4LjY3NDY4IDMuODU0ODcgOC44OTA2NiAzLjY0NjQyIDkuMTIwNzQgMy40NTA0NEwyLjY5MDk3IDQuNzc4NTNDMS43OTM1OSA0Ljk2MTg5IDEuMDE1NDQgNS40NTI0NSAwLjUyNzUxOSA2LjE0MjI4QzAuMDM5NTkzNSA2LjgzMjExIC0wLjExODEzMiA3LjY2NDc3IDAuMDg5MDA1NCA4LjQ1NzMyTDUuNDEzMzMgMjguNzcwM0M1LjYyMTA5IDI5LjU2MTIgNi4xNzU0MiAzMC4yNDcyIDYuOTU0OTkgMzAuNjc3OUM3LjczNDUgMzEuMTA4NSA4LjY3NTU3IDMxLjI0ODggOS41NzE5OSAzMS4wNjc5TDEyLjIwNDEgMzAuNTEwMUwxMi4wMDEgMzAuNDYzNkMxMC4yMjU5IDI5Ljk4MTYgOC41MTYxNSAyOS4zMjkyIDYuOTAyMzEgMjguNTE4TDkuNjc3MjggMjMuMDk5NEMxMS44ODU0IDI0LjY4NzEgMTQuNjUwNyAyNS41NDY0IDE3LjQ5ODMgMjUuNTI5OEMyMC41MDY0IDI1LjUyOTggMjIuMDEwMyAyNC41ODAyIDIyLjAxMDMgMjIuNjk0M0MyMi4wMjQ5IDIyLjE3NjcgMjEuOTA5MSAyMS42NjI3IDIxLjY3MSAyMS4xODk2QzIxLjQzMyAyMC43MTY0IDIxLjA3ODkgMjAuMjk1OSAyMC42MzQyIDE5Ljk1ODVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMzUuMTc4MyAyMi42ODc3TDI5Ljg1NCAyLjM3NDcyQzI5LjY0NjIgMS41ODM3NyAyOS4wOTE4IDAuODk3NzkzIDI4LjMxMjMgMC40NjcxMjRDMjcuNTMyOCAwLjAzNjQ1MzggMjYuNTkxNyAtMC4xMDM3ODIgMjUuNjk1MyAwLjA3NzE0NDJMMjEuODIyNCAwLjg2NzM0OEMyMi4yNjg2IDAuOTI5MzI5IDIyLjcwOTggMS4wMDIzNyAyMy4xNDU5IDEuMDg2NDhDMjQuODgxOSAxLjQyNzc4IDI2LjU2MjEgMS45NjEwMSAyOC4xNDY5IDIuNjczNTRMMjUuODkwOCA3Ljk4NTg0QzI0LjIwNjMgNi43MTA5IDIxLjg1MjUgNi4wNzM0NiAxOC44NDQ0IDYuMDczNDZDMTYuMTQ3MiA2LjA3MzQ2IDE0Ljc5NjEgNy4wMjA3NyAxNC43OTEgOC45MTU1NEMxNC44MjA1IDkuMzE2NDcgMTQuOTU2NCA5LjcwNTYyIDE1LjE4NzYgMTAuMDUxN0MxNS40MTg4IDEwLjM5NzcgMTUuNzM4OSAxMC42OTA5IDE2LjEyMjEgMTAuOTA3NkMxNy45MDYgMTEuOTA2NiAxOS44MTM1IDEyLjcyMiAyMS44MDczIDEzLjMzOEMyMy41Mzc5IDEzLjg5OSAyNS4xNTkxIDE0LjY5NDMgMjYuNjEyOCAxNS42OTUzQzI3LjE2ODYgMTYuMDg3MSAyNy42NzMxIDE2LjUzMjYgMjguMTE2OCAxNy4wMjM0QzI5LjQxNDEgMTguNTE1NCAzMC4wOTEyIDIwLjM1NTggMzAuMDM0NSAyMi4yMzYyQzMwLjA5NjUgMjQuMDUxNCAyOS40NDU2IDI1LjgyOTggMjguMTkyIDI3LjI2OTZMMzIuNTc2MyAyNi4zNzMxQzMzLjAyMTkgMjYuMjgzMiAzMy40NDMgMjYuMTE2MyAzMy44MTUzIDI1Ljg4MkMzNC4xODc1IDI1LjY0NzkgMzQuNTAzNyAyNS4zNTA5IDM0Ljc0NTUgMjUuMDA4NEMzNC45ODc0IDI0LjY2NTggMzUuMTUwMSAyNC4yODQ1IDM1LjIyNDQgMjMuODg2MkMzNS4yOTg2IDIzLjQ4NzkgMzUuMjgzIDIzLjA4MDYgMzUuMTc4MyAyMi42ODc3WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTQ3LjY1NDMgMjguNTE3OUg0OC45NDc4TDUyLjEzNjMgMzUuNzgyNUw1NS4zMDk4IDI4LjUxNzlINTYuNjAzM1YzNi43OTE4SDU1LjcyMzVWMjkuNjMzNUw1Mi41NDI0IDM2Ljc5MThINTEuNzE1Mkw0OC41NTY3IDI5LjYzMzVWMzYuNzkxOEg0Ny42NTQzVjI4LjUxNzlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNjMuNzEwMiAyOC41MTc5SDY0LjY4NzhMNjguMzM0NyAzNi43OTE4SDY3LjM2NDdMNjYuMjQ0IDM0LjIxNTRINjIuMDQ4MUw2MC45MzUxIDM2Ljc5MThINTkuOTk1MUw2My43MTAyIDI4LjUxNzlaTTYyLjMxODggMzMuNTQ0N0g2NS45NDMzTDY0LjE2MSAyOS4yOTQ5TDYyLjMxODggMzMuNTQ0N1oiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik03OS42MTU0IDM2Ljc5MTlINzguOTgzNUw3OC44NjMyIDM1LjI4NDVDNzguNTgxMiAzNS44MTMgNzguMTI2OSAzNi4yNTUgNzcuNTU5MyAzNi41NTQzQzc2Ljk5MSAzNi44NTM2IDc2LjMzNDkgMzYuOTk2NCA3NS42NzQ3IDM2Ljk2NDVDNzIuNzcxNyAzNi45NjQ1IDcxLjMyODEgMzQuOTEyNyA3MS4zMjgxIDMyLjY0ODNDNzEuMzI4MSAzMC4zODM5IDcyLjc3MTcgMjguMzMyIDc1LjY3NDcgMjguMzMyQzc2LjU5MTQgMjguMjczNyA3Ny40OTkyIDI4LjUyNTIgNzguMjE0IDI5LjAzNTZDNzguOTI4OSAyOS41NDYgNzkuMzk3NyAzMC4yNzcyIDc5LjUyNDkgMzEuMDgxMkg3OC42NDQ4Qzc4LjUxNjkgMzAuNDc2NyA3OC4xNDU2IDI5LjkzMzQgNzcuNjAwMSAyOS41NTE0Qzc3LjA1NCAyOS4xNjk1IDc2LjM3MDIgMjguOTc0NiA3NS42NzQ3IDI5LjAwMjdDNzMuMjM3NyAyOS4wMDI3IDcyLjE5OTkgMzAuODM1NSA3Mi4xOTk5IDMyLjY0ODNDNzIuMTk5OSAzNC40NjExIDczLjIzMDcgMzYuMjkzOSA3NS42NzQ3IDM2LjI5MzlDNzcuNzEyOCAzNi4yOTM5IDc4LjkwMDYgMzUuMDA1NyA3OC44NjMyIDMzLjI1MjZINzUuNzI3MlYzMi41ODg1SDc5LjYxNTRWMzYuNzkxOVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik04Ni41NzEzIDI4LjUxNzlIODcuNTQ4OEw5MS4xNjYgMzYuNzk4NUg5MC4yMjY1TDg5LjEwNTggMzQuMjIySDg0Ljg3OTVMODMuNzY2NCAzNi43OTg1SDgyLjgyNjJMODYuNTcxMyAyOC41MTc5Wk04NS4xODAyIDMzLjU1MTRIODguODA1TDg3LjAyMjcgMjkuMzAxNUw4NS4xODAyIDMzLjU1MTRaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNOTQuMTM2OCAyOC41MTc5SDEwMC43N1YyOS4xODJMOTQuNzAxIDM2LjA5NDZIMTAwLjg5OFYzNi43NTg3SDkzLjcyMzRWMzYuMDk0Nkw5OS43OTIxIDI5LjE4Mkg5NC4xMzY4VjI4LjUxNzlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTA0LjY0MyAyOC41MTc5SDEwNS41MjJWMzYuNzkxOEgxMDQuNjQzVjI4LjUxNzlaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTEwLjAxMiAyOC41MTc5SDExMC45ODlMMTE2LjM1OSAzNS41MjM1VjI4LjUxNzlIMTE3LjIzOFYzNi43OTE4SDExNi4yNjFMMTEwLjg5MiAyOS43ODYyVjM2Ljc5MThIMTEwLjAxMlYyOC41MTc5WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEyMS43MjggMjguNTE3OUgxMjguMDlWMjkuMTgySDEyMi42MDFWMzIuMTc2OEgxMjcuNzQ0VjMyLjg0MDhIMTIyLjYwOFYzNi4xMTQ2SDEyOC4xNThWMzYuNzc4NkgxMjEuNzI4VjI4LjUxNzlaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K" alt="Smashing magazine" loading="lazy">
+                </div>
+    
+            </div>
+        </div>
+
+        <div style="background-image: linear-gradient(270deg, #5C7575, #163238);">
+            <div class="techTalkDiv">
+                
+                <div class="techTalkVideos">
+                    <div class="techTalkVideo">
+                        <a href="https://www.sitepoint.com/premium/courses/how-to-fetch-api-data-with-react-3178">
+                            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/95b25726-56bc-4349-a169-7aa6958d24e1_medium.png" alt="How to Fetch API Data with React" class="techTalkImg">    
+                            <h4 class="techTalkVideoTitle">How to Fetch API Data with React</h4>
+                            <h5 class="techTalkSpeaker">with Telmo Sampaio</h5>
+                        </a>
+                    </div>
+            
+                    <div class="techTalkVideo">
+                        <a href="https://www.sitepoint.com/premium/courses/javascript-fundamentals-3092">
+                            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/9f500fa5-6ce5-4fc8-abf8-b268c6112472_medium.jpg" alt="JavaScript Fundamentals" class="techTalkImg">    
+                            <h4 class="techTalkVideoTitle">JavaScript Fundamentals</h4>
+                            <h5 class="techTalkSpeaker">with Telmo Sampaio</h5>
+                        </a>
+                    </div>
+
+                    <div class="techTalkVideo">
+                        <a href="https://www.sitepoint.com/premium/courses/introduction-to-python-3112">
+                            <img src="https://d2sis3lil8ndrq.cloudfront.net/courses/4ecb34b2-45a2-4fdf-b5ba-c23df9a38397_medium.png" alt="Introduction to Python" class="techTalkImg">    
+                            <h4 class="techTalkVideoTitle">Introduction to Python</h4>
+                            <h5 class="techTalkSpeaker">Simon Sez IT</h5>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="techTalk">
+                    <span class="techTalkHeading">Practical, hands-on video courses on<br> the topics you need.</span>
+                    <span class="techTalkDesc">Watch concise video courses that walk you through the tricky parts. For<br> those times when you need to see how things are done on someone else’s<br> screen.</span>
+                    <button class="techTalkBtn fontColorBtn">Browse All Courses</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="reviewsDiv">
+            <h2 class="sitepointPremiumHeading" style="margin-top: 50px;">Here's what our members think:</h2>
+            <div class="reviews">
+                <div class="reviewDiv">
+                    <div class="memberDiv">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTggMTE4Ij4KICA8Y2lyY2xlIGN4PSI1OSIgY3k9IjU5IiByPSI1OCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMTQzNjk1IiBzdHJva2Utd2lkdGg9IjIiLz4KICA8Y2lyY2xlIGN4PSI1OS41IiBjeT0iNTguNSIgcj0iNDgiIGZpbGw9IiNGNzk0MUQiIHN0cm9rZT0iIzE0MzY5NSIgc3Ryb2tlLXdpZHRoPSI1Ii8+CiAgICA8ZyBmaWxsPSIjZmZmIj4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSIzOSIgeD0iNDEiIHk9IjI3IiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSIyOCIgeD0iNTEiIHk9IjI3IiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSIxMiIgeD0iNjQiIHk9IjQzIiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSI0MSIgeD0iODMiIHk9IjMzIiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSIyNSIgeD0iNzMiIHk9IjMzIiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iOSIgaGVpZ2h0PSIzIiB4PSIzNSIgeT0iNTIiICAvPgogICAgICAgIDxyZWN0IHdpZHRoPSI3IiBoZWlnaHQ9IjMiIHg9Ijc2IiB5PSIzMCIgIC8+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjciIGhlaWdodD0iMyIgeD0iNDQiIHk9IjI0IiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMyIgeD0iNTQiIHk9IjQwIiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMyIgeD0iNjQiIHk9IjQzIiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMzMiIGhlaWdodD0iMyIgeD0iNDQiIHk9IjkwIiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSIxNiIgeD0iMzIiIHk9IjU1IiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSI3IiB4PSIzNSIgeT0iNzEiICAvPgogICAgICAgIDxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjYiIHg9IjM4IiB5PSI3OCIgIC8+CiAgICAgICAgPHJlY3Qgd2lkdGg9IjMiIGhlaWdodD0iNiIgeD0iNDEiIHk9Ijg0IiAgLz4KICAgICAgICA8cmVjdCB3aWR0aD0iMyIgaGVpZ2h0PSI2IiB4PSI3NyIgeT0iODQiICAvPgogICAgICAgIDxyZWN0IHdpZHRoPSIzIiBoZWlnaHQ9IjEwIiB4PSI4MCIgeT0iNzQiICAvPgogICAgICAgIDxwYXRoIGQ9Ik00OCA3OGMtLjExIDAtLjItLjE3LS4yNC0uNDdsLTEuMjQtOC44OS0uMDEtLjE5YzAtLjE5LjAzLS4yOC4xLS4yOGguOWMuMDYgMCAuMS4wNC4xNS4xMy4wNS4wOS4wOC4yLjEuMzVsLjc2IDYuNDkuOTItNi40N2EuODIuODIgMCAwMS4xLS4zMmMuMDUtLjA4LjEtLjEyLjE1LS4xMmguNzRjLjEyLjAyLjIuMTYuMjQuNDRsLjk4IDYuNi43Ni02LjYzYy4wMi0uMTQuMDUtLjI1LjEtLjM0LjA0LS4wOS4wOS0uMTMuMTQtLjEzaC43OGMuMDcgMCAuMS4xLjEuMjggMCAuMDYgMCAuMTItLjAyLjJsLTEuMiA4Ljg4Yy0uMDUuMy0uMTMuNDYtLjI0LjQ3aC0uODNjLS4xMiAwLS4yLS4xNy0uMjUtLjQ4bC0xLjAyLTYuMzgtMSA2LjM5Yy0uMDMuMjktLjEuNDUtLjIxLjQ3SDQ4ek01NS44MSA3OGMtLjA2IDAtLjEtLjAyLS4xMy0uMDUtLjAyLS4wNS0uMDQtLjEzLS4wNC0uMjZ2LTkuMmMwLS4xNC4wMi0uMjMuMDQtLjI3LjAzLS4wMy4wNy0uMDUuMTMtLjA1aDIuM2MuMjkgMCAuNTMuMDIuNzMuMDUuMi4wMy40Mi4xLjYzLjIuMjEuMS4zOS4yNS41MS40NC4xNC4xOS4yNC40NC4zMi43Ny4xLjMyLjEzLjcuMTMgMS4xNiAwIC4zNS0uMDIuNjUtLjA3LjlzLS4xMy40Ni0uMjMuNjJhMS40NiAxLjQ2IDAgMDEtLjc0LjZjLS4wMi4wMS0uMDIuMDItLjAyLjA0IDAgLjAxIDAgLjAyLjAyLjAzYTEuNSAxLjUgMCAwMS43MS42Yy4xLjE2LjE4LjM3LjI0LjY0LjA1LjI3LjA5LjYuMSAxIC4wMi4zNS4wMyAxLjE2LjAzIDIuNDQgMCAuMjMtLjA0LjM0LS4xMi4zNGgtMS4xYy0uMDYgMC0uMS0uMS0uMS0uM2wtLjA1LTEuNTNjLS4wMy0xLS4wNi0xLjU2LS4wOS0xLjcxYTEuMiAxLjIgMCAwMC0uMTEtLjQ3LjU3LjU3IDAgMDAtLjI0LS4yNy44NS44NSAwIDAwLS4yOS0uMTJjLS4xLS4wMi0uMi0uMDMtLjMzLS4wM2gtLjk4Yy0uMDUgMC0uMDcuMDUtLjA3LjE1djMuOTdjMCAuMTMtLjAxLjIxLS4wNC4yNi0uMDMuMDMtLjA3LjA1LS4xMy4wNWgtMXptMS4yNS01LjVoLjg4Yy43NiAwIDEuMTQtLjU1IDEuMTQtMS42NiAwLS41OS0uMS0xLS4zMS0xLjIzLS4yLS4yMy0uNTUtLjM1LTEuMDQtLjM1aC0uNjdjLS4wNSAwLS4wNy4wNC0uMDcuMTN2Mi45M2MwIC4xMi4wMi4xOC4wNy4xOHpNNjQuMTYgNzhjLS4wNiAwLS4xLS4wMi0uMTMtLjA3YS42NS42NSAwIDAxLS4wNC0uMjh2LTIuOTJsLTEuNTgtNi4xNWEuNjMuNjMgMCAwMS0uMDMtLjJjMC0uMTQuMDMtLjIxLjEtLjIxaDEuMDJjLjEzIDAgLjIyLjEyLjI5LjM2bC45NiAzLjg2Ljk0LTMuODVjLjAzLS4xMS4wNy0uMi4xMi0uMjcuMDUtLjA3LjEtLjEuMTYtLjFoLjg1Yy4wNyAwIC4xMS4wNy4xMS4yMiAwIC4wNiAwIC4xMi0uMDMuMTlsLTEuNTUgNi4xM3YyLjk0YzAgLjIzLS4wNi4zNS0uMTguMzVoLTF6TTY5Ljk5IDc4Yy0uMTIgMC0uMi0uMTctLjI1LS40N2wtMS4yMy04Ljg5LS4wMi0uMTljMC0uMTkuMDQtLjI4LjExLS4yOGguOWMuMDUgMCAuMS4wNC4xNS4xMy4wNC4wOS4wNy4yLjEuMzVsLjc1IDYuNDkuOTItNi40N2EuODEuODEgMCAwMS4xLS4zMmMuMDUtLjA4LjEtLjEyLjE2LS4xMmguNzRjLjExLjAyLjIuMTYuMjQuNDRsLjk3IDYuNi43Ny02LjYzYy4wMi0uMTQuMDUtLjI1LjA5LS4zNC4wNC0uMDkuMS0uMTMuMTUtLjEzaC43N2MuMDcgMCAuMTEuMS4xMS4yOCAwIC4wNiAwIC4xMi0uMDIuMmwtMS4yMSA4Ljg4Yy0uMDUuMy0uMTIuNDYtLjIzLjQ3aC0uODRjLS4xMiAwLS4yLS4xNy0uMjQtLjQ4bC0xLjAzLTYuMzgtLjk5IDYuMzljLS4wNC4yOS0uMS40NS0uMjIuNDdINzB6Ii8+CgogICAgPC9nPgo8L3N2Zz4K" alt="Dane M.">
+                        <div class="member">
+                            <span class="memberName">Dane M.</span>
+                            <san class="memberTitle">Web Develoer</san>
+                        </div>
+                    </div>
+                    <p class="review">SitePoint is my first line of education for website<br> development and design. I've been a member for several<br> years and I use it consistently month in and month out.</p>
+
+                </div>
+
+                <div class="reviewDiv">
+                    <div class="memberDiv">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTQgMTE0Ij4KICA8cGF0aCBmaWxsPSIjM0ZCMkUxIiBkPSJNMTE0IDU3QTU3IDU3IDAgMTEwIDU3YTU3IDU3IDAgMDExMTQgMHoiLz4KICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNDUuODcgNDguNTh2MTguMjVjMCAyLjkzLjUzIDQuODIgMS41OSA1LjY2YTYuNDYgNi40NiAwIDAwNC4xIDEuMjZWNzdIMzYuNjR2LTMuMjVjMS4yNyAwIDIuMzgtLjMgMy4zMi0uOTFhNC4xNiA0LjE2IDAgMDAxLjc4LTIuMTRjLjI2LS44Mi4zOC0yLjEuMzgtMy44NFY0Ni42YzAtNC4wNC0xLjktNi4wNi01LjY4LTYuMDZ2LTMuMjZoMTMuNDJMNzEuNjMgNjEuNlY0Ny4wM2MwLTQuMzQtMS44My02LjUtNS40OC02LjV2LTMuMjZIODAuNHYzLjI2Yy0xIDAtMS45My4yNy0yLjguODJhNC4xNiA0LjE2IDAgMDAtMS43NyAyLjFjLS4zLjg0LS40NyAyLjA4LS40NyAzLjd2MzAuNWgtMy43NUw0NS44OCA0OC41N3oiLz4KPC9zdmc+Cg==" alt="Nilantha">
+                        <div class="member">
+                            <span class="memberName">Nilantha</span>
+                            <san class="memberTitle">Tech Consultant</san>
+                        </div>
+                    </div>
+                    <p class="review">I am vert new to PHP but within a shorter period of time<br> I was able to provide software solutions to major<br> companies in my country. Recently I was struggling to<br> know the hashing password and came across your<br> article which helped me very well to overcome the<br> situation.</p>
+                </div>
+
+                <div class="reviewDiv">
+                    <div class="memberDiv">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTQgMTE0Ij4KICA8Y2lyY2xlIGN4PSI1NyIgY3k9IjU3IiByPSI1NyIgZmlsbD0iI0VGMkE2NSIvPgogIDxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik03Ny4xMyA2My43OUw3Ni45NiA3N0g0MC43NXYtMy4yNWguNThjMiAwIDMuMjgtLjM2IDMuODctMS4wOS42LS43NC45LTIgLjktMy43OHYtMjMuNWMwLTEuOC0uMy0zLjA3LS45My0zLjc3LS42My0uNzItMS45LTEuMDgtMy44NC0xLjA4aC0uNTh2LTMuMjZoMjEuM3YzLjI2aC0uOGMtMS45OSAwLTMuMjkuMzctMy45IDEuMS0uNTguNzMtLjg3IDEuOTgtLjg3IDMuNzZ2MjIuNjdjMCAxLjcuMSAyLjgzLjMgMy4zNy4xOS41NS43IDEuMDMgMS41MSAxLjQ0Ljg0LjM5IDIuMy41OSA0LjM3LjU5IDMuNDggMCA2LjA3LS44NyA3LjgtMi42MSAxLjcxLTEuNzYgMi44OC00LjExIDMuNS03LjA2aDMuMTd6Ii8+Cjwvc3ZnPgo=" alt="Linda">
+                        <div class="member">
+                            <span class="memberName">Linda</span>
+                            <san class="memberTitle">Self Taught</san>
+                        </div>
+                    </div>
+                    <p class="review">SitePoint's books taught me so much over the years, and<br> I've been most grateful for the<br> quality instruction in them.</p>  
+                </div>
+            </div>
+        </div>
+
+        <div class="articlesDiv">
+            <h2 class="sitepointPremiumHeading" style="margin-top: 100px;">Read our newest articles:</h2>            
+            <div class="articleDiv">
+                <a href="" class="article">
+                    <div class="imageHolder">
+                        <img src="https://uploads.sitepoint.com/wp-content/uploads/2021/09/1630652265reusable-react-components.jpg" alt="A Practical Guide to Creating Reusable React Components">
+                    </div>
+                    <div class="articleTitleDiv">
+                        <span class="articleTitle">A Practical Guide to<br> Creating Reusable<br> React Components</span>    
+                    </div>
+                    <div class="articleListDiv">
+                        <ul class="articleList">
+                            <li class="articleItem articleContent">JAVASCRIPT</li>
+                            <li class="articleItem articleWriter">Hanbyeol (Benny) Joo, Sep 06</li>
+                        </ul>
+                    </div>
+                </a>
+    
+                <a href="" class="article">
+                    <div class="imageHolder">
+                        <img src="https://uploads.sitepoint.com/wp-content/uploads/2018/08/1630484762code-playgrounds.jpg" alt="7 of the Best Code Playgrounds">    
+                    </div>
+                    <div class="articleTitleDiv">
+                        <span class="articleTitle">7 of the Best Code<br> Playgrounds</span>    
+                    </div>
+                    <div class="articleListDiv">
+                        <ul class="articleList">
+                            <li class="articleItem articleContent">HTML & CSS</li>
+                            <li class="articleItem articleWriter">Craig Buckler, Sep 02</li>
+                        </ul>
+                    </div>
+                </a>
+    
+                <a href="" class="article">
+                    <div class="imageHolder">
+                        <img src="https://uploads.sitepoint.com/wp-content/uploads/2021/08/1630463978teaching-programming9.jpg" alt="Teaching as a Side Hustle for Engineers">    
+                    </div>
+                    <div class="articleTitleDiv">
+                        <span class="articleTitle">Teaching as a Side<br> Hustle for Engineers</span>    
+                    </div>
+                    <div class="articleListDiv">
+                        <ul class="articleList">
+                            <li class="articleItem articleContent">COMPUTING</li>
+                            <li class="articleItem articleWriter">Craig Buckler, Sep 01</li>
+                        </ul>
+                    </div>
+                </a>
+    
+                <a href="" class="article">
+                    <div class="imageHolder">
+                        <img src="https://uploads.sitepoint.com/wp-content/uploads/2018/09/1630382754svg-media-queries.jpg" alt="Using SVG with Media Queries">    
+                    </div>
+
+                    <div class="articleTitleDiv">
+                        <span class="articleTitle">Using SVG with<br> Media Queries</span>
+                    </div>
+                    <div class="articleListDiv">
+                        <ul class="articleList">
+                            <li class="articleItem articleContent">HTML & CSS</li>
+                            <li class="articleItem articleWriter">Tiffany Brown, Aug 31</li>
+                        </ul>
+                    </div>
+                </a>
+    
+            </div>
+            <button type="button" class="techTalkBtn brightBtn">Read All Articles</button>
+        </div>        
+    </div>
+
+    <footer>
+        <div class="footerContent">
+            <h3 class="footerContentHeading">Stuff we do</h3>
+            <ul>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/premium" class="footerContentItem">Premium</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/newsletters" class="footerContentItem">Newsletters</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/community" class="footerContentItem">Forums</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/premium/deals" class="footerContentItem">Deals</a></li>
+            </ul>
+        </div>
+
+        <div class="footerContent">
+            <h3 class="footerContentHeading">About</h3>
+            <ul>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/about-us" class="footerContentItem">Our story</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/legals" class="footerContentItem">Terms of use</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/privacy-policy" class="footerContentItem">Privacy policy</a></li>
+                <li class="footerContentItem"><a href="https://sitepoint.typeform.com/to/fNY7XG" class="footerContentItem">Corporate membership</a></li>
+            </ul>
+        </div>
+
+        <div class="footerContent">
+            <h3 class="footerContentHeading">Contact</h3>
+            <ul>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/contact-us" class="footerContentItem">Contact us</a></li>
+                <li class="footerContentItem"><a href="https://sitepoint.zendesk.com/hc/en-us" class="footerContentItem">FAQ</a></li>
+                <li class="footerContentItem"><a href="https://sitepoint.typeform.com/to/HtAXVN" class="footerContentItem">Publish your book with us</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/write-for-us" class="footerContentItem">Write an article for us</a></li>
+                <li class="footerContentItem"><a href="https://www.sitepoint.com/advertise/" class="footerContentItem">Advertise</a></li>
+            </ul>
+        </div>
+
+        <div class="footerContent">
+            <h3 class="footerContentHeading">Connect</h3>
+            <div class="socialMedias">
+                <a href="https://www.facebook.com/sitepoint" class="footerContentItem">
+                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg>
+                </a>
+
+                <a href="http://twitter.com/sitepointdotcom" class="footerContentItem">
+                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z"></path></svg>
+                </a>
+
+                <a href="https://www.sitepoint.com/feed" class="footerContentItem">
+                    <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48C21.49 32 0 53.49 0 80v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V80c0-26.51-21.49-48-48-48zM112 416c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm157.533 0h-34.335c-6.011 0-11.051-4.636-11.442-10.634-5.214-80.05-69.243-143.92-149.123-149.123-5.997-.39-10.633-5.431-10.633-11.441v-34.335c0-6.535 5.468-11.777 11.994-11.425 110.546 5.974 198.997 94.536 204.964 204.964.352 6.526-4.89 11.994-11.425 11.994zm103.027 0h-34.334c-6.161 0-11.175-4.882-11.427-11.038-5.598-136.535-115.204-246.161-251.76-251.76C68.882 152.949 64 147.935 64 141.774V107.44c0-6.454 5.338-11.664 11.787-11.432 167.83 6.025 302.21 141.191 308.205 308.205.232 6.449-4.978 11.787-11.432 11.787z"></path></svg>
+                </a>
+            </div>
+
+            <span class="copyright">&copy; 2021 biman lakhey</span>
+
+            <p class="captcha">This site is protected by reCAPTCHA and<br> the Google Privacy Policy and Terms of<br> Service apply.</p>
+            
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
